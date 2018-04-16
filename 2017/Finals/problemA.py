@@ -5,15 +5,15 @@ from itertools import groupby, chain
 def get_straight(chunk: list, idx: int, straight: int, dice: set) -> int:
     """Get max straight starting at index idx."""
     if idx == len(chunk) - 1:
-        return straight
+        yield straight
 
-    item = chunk[idx]
-
-    return max((get_straight(chunk, idx+1, straight+1, dice-{x}) for x in item[1] if x in dice), default=straight)
+    for x in chunk[idx][1]:
+        if x in dice:
+            yield from get_straight(chunk, idx+1, straight+1, dice-{x})
 
 
 def check_dice(chunk):
-    """Check that chunk has enough unique dice to arrange in a row."""
+    """Check that chunk has enough unique dice to form a solution."""
 
     # number of unique dice should be greater than or equal to the length of the chunk
     for i in range(len(chunk), 1, -1):
@@ -79,10 +79,13 @@ def main():
                     continue
 
                 dice = set(range(ndice))
-                straight = get_straight(subchunk, 0, 1, dice)
-                if straight > max_straight:
-                    #print("NEW STRAIGHT: ", straight)
-                    max_straight = straight
+
+                for straight in get_straight(subchunk, 0, 1, dice):
+                    if straight > max_straight:
+                        #print("NEW STRAIGHT: ", straight)
+                        max_straight = straight
+                        if straight == len(subchunk):
+                            break
 
         print("Case #{}: {}".format(i+1, max_straight))
 
