@@ -1,15 +1,25 @@
-from operator import itemgetter
-from itertools import groupby, chain
+#!/usr/bin/env python
+
+from collections import defaultdict
+from itertools import groupby
 
 
-def get_straight(chunk: list, idx: int, straight: int, dice: set) -> int:
+def get_straight(chunk, idx, straight) -> int:
     """Get max straight starting at index idx."""
+    #print(chunk, idx, straight)
+
     if idx == len(chunk) - 1:
         yield straight
 
-    for x in chunk[idx][1]:
-        if x in dice:
-            yield from get_straight(chunk, idx+1, straight+1, dice-{x})
+    for x in chunk[idx]:
+        new_chunk = chunk[:]
+
+        for i in range(idx+1, len(chunk)):
+            new_chunk[i] = new_chunk[i] - {x}
+            if not new_chunk[i]:
+                break
+        else:
+            yield from get_straight(new_chunk, idx+1, straight+1)
 
 
 def check_dice(chunk):
@@ -20,7 +30,7 @@ def check_dice(chunk):
         for j in range(0, len(chunk)-i+1, i):
             subchunk = chunk[j:j+i]
 
-            if len(set(chain.from_iterable(map(itemgetter(1), subchunk)))) < len(subchunk):
+            if len(set().union(*subchunk)) < len(subchunk):
                 return False
 
     return True
@@ -40,49 +50,47 @@ def main():
 
     for i in range(T):
         ndice = int(input())
-        integers = []
+        integers = defaultdict(set)
 
         for j in range(ndice):
-            integers.extend((int(x), j) for x in input().split())
+            for integer in map(int, input().split()):
+                integers[integer].add(j)
 
-        integers.sort(key=itemgetter(0))
-
-        grouped = [(k, [x[1] for x in g]) for k, g in groupby(integers, itemgetter(0))]
+        #print(integers)
         chunks = []
 
         # find runs of consecutive numbers
-        for k, g in groupby(enumerate(grouped), lambda x: x[0]-x[1][0]):
+        for k, g in groupby(enumerate(sorted(integers)), lambda x: x[0]-x[1]):
             g = list(g)
             if len(g) > 1:
-                chunks.append(list(map(itemgetter(1), g)))
+                chunks.append(list(map(lambda x: integers[x[1]], g)))
 
         chunks.sort(key=len, reverse=True)
 
         max_straight = 1
 
         for chunk in chunks:
-            #print("CHUNK: ", chunk)
+            #print(f"CHUNK of length {len(chunk)}: ", chunk)
 
             if len(chunk) <= max_straight:
                 #print("BREAK (too small chunk)")
                 break
 
             for subchunk in get_subchunks(chunk):
-                #print("SUBCHUNK: ", subchunk)
+                #print(f"-> SUBCHUNK of length {len(subchunk)}: ", subchunk)
 
                 if len(subchunk) <= max_straight:
-                    #print("BREAK (too small subchunk)")
+                    #print("--> BREAK (too small subchunk)")
                     break
 
                 if not check_dice(subchunk):
-                    #print("CONTINUE (not enough dice)", subchunk)
+                    #print("--> CONTINUE (not enough dice)", subchunk)
                     continue
 
-                dice = set(range(ndice))
 
-                for straight in get_straight(subchunk, 0, 1, dice):
+                for straight in get_straight(subchunk, 0, 1):
                     if straight > max_straight:
-                        #print("NEW STRAIGHT: ", straight)
+                        #print("--> NEW STRAIGHT: ", straight)
                         max_straight = straight
                         if straight == len(subchunk):
                             break
