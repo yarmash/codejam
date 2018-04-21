@@ -4,22 +4,25 @@ from collections import defaultdict
 from itertools import groupby
 
 
-def get_straight(chunk, idx, straight) -> int:
-    """Get max straight starting at index idx."""
-    #print(chunk, idx, straight)
+def straights(chunk, idx):
+    """Generate straights for a chunk starting at index idx"""
 
     if idx == len(chunk) - 1:
-        yield straight
+        yield idx + 1
+        return
 
     for x in chunk[idx]:
-        new_chunk = chunk[:]
+        new_chunk = chunk.copy()
 
         for i in range(idx+1, len(chunk)):
-            new_chunk[i] = new_chunk[i] - {x}
+            new_chunk[i] = new_chunk[i].copy()
+            new_chunk[i].discard(x)
+
             if not new_chunk[i]:
+                yield idx + 1
                 break
         else:
-            yield from get_straight(new_chunk, idx+1, straight+1)
+            yield from straights(new_chunk, idx+1)
 
 
 def check_dice(chunk):
@@ -88,9 +91,10 @@ def main():
                     continue
 
 
-                for straight in get_straight(subchunk, 0, 1):
+                for straight in straights(subchunk, 0):
+                    #print(straight)
                     if straight > max_straight:
-                        #print("--> NEW STRAIGHT: ", straight)
+                        #print("--> NEW MAX STRAIGHT: ", straight)
                         max_straight = straight
                         if straight == len(subchunk):
                             break
