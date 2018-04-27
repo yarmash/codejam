@@ -4,25 +4,17 @@ from collections import defaultdict
 from itertools import groupby
 
 
-def straights(chunk, idx):
+def straights(chunk, idx, free_dice):
     """Generate straights for a chunk starting at index idx"""
 
     if idx == len(chunk) - 1:
         yield idx + 1
-        return
-
-    for x in chunk[idx]:
-        new_chunk = chunk.copy()
-
-        for i in range(idx+1, len(chunk)):
-            new_chunk[i] = new_chunk[i].copy()
-            new_chunk[i].discard(x)
-
-            if not new_chunk[i]:
+    else:
+        for x in chunk[idx]:
+            if x in free_dice:
+                yield from straights(chunk, idx+1, free_dice.difference((x,)))
+            else:
                 yield idx + 1
-                break
-        else:
-            yield from straights(new_chunk, idx+1)
 
 
 def check_dice(chunk):
@@ -53,11 +45,11 @@ def main():
 
     for i in range(T):
         ndice = int(input())
-        integers = defaultdict(set)
+        integers = defaultdict(list)
 
         for j in range(ndice):
             for integer in map(int, input().split()):
-                integers[integer].add(j)
+                integers[integer].append(j)
 
         #print(integers)
         chunks = []
@@ -66,7 +58,7 @@ def main():
         for k, g in groupby(enumerate(sorted(integers)), lambda x: x[0]-x[1]):
             g = list(g)
             if len(g) > 1:
-                chunks.append(list(map(lambda x: integers[x[1]], g)))
+                chunks.append([integers[x[1]] for x in g])
 
         chunks.sort(key=len, reverse=True)
 
@@ -91,7 +83,7 @@ def main():
                     continue
 
 
-                for straight in straights(subchunk, 0):
+                for straight in straights(subchunk, 0, set(range(ndice))):
                     #print(straight)
                     if straight > max_straight:
                         #print("--> NEW MAX STRAIGHT: ", straight)
