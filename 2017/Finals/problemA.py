@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
-import sys
 from itertools import starmap
-
-# TODO: get rid of recursion
-sys.setrecursionlimit(30000)
 
 
 class Die:
@@ -55,23 +51,31 @@ class TestCase:
         """
         assert die.current_value is not None
 
-        # First check if we can just use another dice for the previous value
-        for other_die in die.current_value.dice:
-            if other_die.current_value is None:
-                other_die.current_value = die.current_value
-                die.current_value = None
-                return True
+        stack = [[die]]
+        found_chain = None
 
-        # Nope, we must free a die recursively
-        self.visited.add(die)
+        while stack:
+            chain = stack.pop()
+            this_die = chain[-1]
 
-        for other_die in die.current_value.dice:
-            if other_die in self.visited:
-                continue
-            if self.free_by_shuffling(other_die):
-                other_die.current_value = die.current_value
-                die.current_value = None
-                return True
+            for other_die in this_die.current_value.dice:
+                if other_die.current_value is None:
+                    chain.append(other_die)
+                    found_chain = chain
+                    break
+            else:
+                self.visited.add(this_die)
+                for other_die in this_die.current_value.dice:
+                    if other_die in self.visited:
+                        continue
+                    stack.append(chain+[other_die])
+
+        if found_chain:
+            for i in range(len(found_chain)-1, 0, -1):
+                found_chain[i].current_value = found_chain[i-1].current_value
+            found_chain[0].current_value = None
+            return True
+
         return False
 
     def find_unused_by_shuffling(self, value):
