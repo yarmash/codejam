@@ -51,32 +51,37 @@ class TestCase:
         """
         assert die.current_value is not None
 
-        stack = [[die]]
-        found_chain = None
+        stack = [die]
+        found = False
 
         while stack:
-            chain = stack.pop()
-            this_die = chain[-1]
+            this_die = stack.pop()
+
+            if found:
+                if stack:
+                    this_die.current_value = stack[-1].current_value
+                    stack[-1].current_value = None
+                continue
 
             for other_die in this_die.current_value.dice:
                 if other_die.current_value is None:
-                    chain.append(other_die)
-                    found_chain = chain
+                    stack.extend((this_die, other_die))
+                    found = True
                     break
             else:
                 self.visited.add(this_die)
+
                 for other_die in this_die.current_value.dice:
-                    if other_die in self.visited:
-                        continue
-                    stack.append(chain+[other_die])
-
-        if found_chain:
-            for i in range(len(found_chain)-1, 0, -1):
-                found_chain[i].current_value = found_chain[i-1].current_value
-            found_chain[0].current_value = None
-            return True
-
-        return False
+                    if other_die not in self.visited:
+                        stack.extend((this_die, other_die))
+                        break
+                else:
+                    if stack:
+                        for other_die in stack[-1].current_value.dice:
+                            if other_die not in self.visited:
+                                stack.append(other_die)
+                                break
+        return found
 
     def find_unused_by_shuffling(self, value):
         """
