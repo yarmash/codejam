@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 
 def calc_damage(s):
     damage = 0
@@ -18,8 +20,6 @@ def swap_one(L):
             L[i], L[i+1] = L[i+1], L[i]
             return True
     return False
-
-# TODO: need to verify the solution after modifying
 
 
 def calc_hacks(D, P):
