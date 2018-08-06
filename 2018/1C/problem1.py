@@ -1,35 +1,34 @@
-def main():
-    T = int(input())
+#!/usr/bin/env python
 
-    for i in range(T):
-        N, L = map(int, input().split())
+"""A Whole New Word"""
+
+from itertools import product
+
+
+def main():
+    T = int(input())  # the number of test cases
+
+    for case in range(1, T+1):
+        N, L = map(int, input().split())  # the number of words and the length
 
         words = set()
-        words_list = []
+        letters = [set() for _ in range(L)]
 
-        for j in range(N):
-            word = input().strip()
+        for _ in range(N):
+            word = input()
             words.add(word)
-            words_list.append(word)
+            for i, l in enumerate(word):
+                letters[i].add(l)
 
         if L == 1:
-            print('Case #{}: {}'.format(i+1, '-'))
+            print('Case #{}: {}'.format(case, '-'))
             continue
 
-        def candidates(cand):
-            l = len(cand)
-
-            if l == L:
-                yield cand
-            else:
-                for j in range(N):
-                    yield from candidates(cand + [words_list[j][l]])
-
-        for c in candidates([]):
-            if ''.join(c) not in words:
-                print('Case #{}: {}'.format(i+1, ''.join(c)))
+        for p in product(*letters):
+            if ''.join(p) not in words:
+                print('Case #{}: {}'.format(case, ''.join(p)))
                 break
         else:
-                print('Case #{}: {}'.format(i+1, '-'))
+            print('Case #{}: {}'.format(case, '-'))
 
 main()
