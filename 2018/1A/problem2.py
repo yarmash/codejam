@@ -2,16 +2,9 @@
 
 """Bit Party"""
 
-from itertools import chain, combinations, combinations_with_replacement
+from collections import namedtuple
 
-
-class Cashier:
-    __slots__ = ('max_bits', 'scan_time', 'packaging_time')
-
-    def __init__(self, M, S, P):
-        self.max_bits = M
-        self.scan_time = S
-        self.packaging_time = P
+Cashier = namedtuple('Cashier', ('max_bits', 'scan_time', 'packaging_time'))
 
 
 def main():
@@ -21,32 +14,29 @@ def main():
         R, B, C = map(int, input().split())  # robot shoppers, bits, cashiers
 
         cashiers = []
+        max_scan_time = max_packaging_time = 0
 
         for _ in range(C):
             M, S, P = map(int, input().split())  # max number of bits, scan time per bit, packaging time
             cashier = Cashier(M, S, P)
             cashiers.append(cashier)
+            if S > max_scan_time:
+                max_scan_time = S
+            if P > max_packaging_time:
+                max_packaging_time = P
 
-        res = float('inf')
+        left, right = 0, max_scan_time*B + max_packaging_time
 
-        for num_cashiers in range(1, R+1):
-            for sel_cashiers in combinations(cashiers, num_cashiers):
-                for bits_bars in combinations_with_replacement(range(B+1), num_cashiers-1):
-                    prev_bar = 0
-                    times = []
+        while left < right:
+            middle = (left + right) // 2
 
-                    for cashier, bar in zip(sel_cashiers, chain(bits_bars, (B,))):
-                        num_bits = bar - prev_bar
-                        prev_bar = bar
-                        if num_bits > cashier.max_bits:
-                            break
-                        times.append(num_bits*cashier.scan_time + cashier.packaging_time)
-                    else:
-                        time = max(times)
-                        if time < res:
-                            res = time
+            if sum(sorted((max(0, min(c.max_bits, (middle - c.packaging_time) // c.scan_time)) for c in cashiers),
+                          reverse=True)[:R]) >= B:
+                right = middle
+            else:
+                left = middle + 1
 
-        print('Case #{}: {}'.format(case, res))
+        print('Case #{}: {}'.format(case, left))
 
 
 main()
