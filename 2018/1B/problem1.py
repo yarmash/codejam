@@ -5,6 +5,7 @@
 from heapq import heappop, heappush
 
 
+# TODO: use integer arithmetic instead of floating point
 def main():
     T = int(input())  # the number of test cases
 
