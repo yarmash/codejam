@@ -1,24 +1,27 @@
-This problem's acceptance condition is based on competitive analysis. The problem is a bit tough
-to test locally, even for an interactive problem. It is easy to generate a particular set of
-customer preferences, but determining the maximum possible number of lollipops we can sell requires
-bipartite matching. However, we do not necessarily need to do that; since there is only one test
-set, which is Visible, we have some room for experimentation and for small leaps of faith.
+## Lollipop Shop
+
+This problem's acceptance condition is based on [competitive
+analysis.](https://en.wikipedia.org/wiki/Competitive_analysis_(online_algorithm)) The problem is a
+bit tough to test locally, even for an interactive problem. It is easy to generate a particular set
+of customer preferences, but determining the maximum possible number of lollipops we can sell
+requires [bipartite
+matching](https://en.wikipedia.org/wiki/Matching_(graph_theory)#In_unweighted_bipartite_graphs).
+However, we do not necessarily need to do that; since there is only one test set, which is Visible,
+we have some room for experimentation and for small leaps of faith.
 
 A solution that just picks random legal flavors is not good enough to pass, so we need a couple of
 insights:
 
-  * Selling a lollipop, if possible, is never worse than not selling a lollipop. Assume that there
-  is some good solution that involves not selling a lollipop now, and selling L lollipops in total
-  later. Selling a lollipop now can only stop at most 1 lollipop from being sold later, so we can
-  still sell L-1 more lollipops.
-
-  * If we have a choice of lollipops to sell, the best we can do is sell a lollipop that has the
-  lowest probability of being liked. Intuitively, this saves the flavors that are more likely to show
-  up later. (This intuition can be proved mathematically.)
-
-  * But we don't know the true probability for each flavor. The best estimate we can get for a flavor
-  at any point is the number of customers that have liked that flavor so far, divided by the total
-  number of customers seen so far.
+*   Selling a lollipop, if possible, is never worse than not selling a lollipop. Assume that there
+    is some good solution that involves not selling a lollipop now, and selling L lollipops in
+total later. Selling a lollipop now can only stop at most 1 lollipop from being sold later, so we
+can still sell L-1 more lollipops.
+*   If we have a choice of lollipops to sell, the best we can do is sell a lollipop that has the
+    lowest probability of being liked. Intuitively, this saves the flavors that are more likely to
+show up later. (This intuition can be proved mathematically.)
+*   But we don't know the true probability for each flavor. The best estimate we can get for a
+    flavor at any point is the number of customers that have liked that flavor so far, divided by
+the total number of customers seen so far.
 
 Therefore, our best strategy is to always sell a lollipop if possible; whenever there are multiple
 flavors to choose from, we choose one of the flavors that we have seen the minimal number of times
