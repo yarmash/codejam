@@ -31,10 +31,10 @@ def main():
             middle = (left + right) // 2
 
             if sum(sorted((max(0, min(c.max_bits, (middle - c.packaging_time) // c.scan_time)) for c in cashiers),
-                          reverse=True)[:R]) >= B:
-                right = middle
-            else:
+                          reverse=True)[:R]) < B:
                 left = middle + 1
+            else:
+                right = middle
 
         print('Case #{}: {}'.format(case, left))
 
