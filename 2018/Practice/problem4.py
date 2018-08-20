@@ -2,36 +2,42 @@
 
 """Bathroom Stalls"""
 
-from heapq import heappop, heappush
+from collections import defaultdict
 
 
 def main():
-    def get_subchunks(chunk):
-        if chunk & 1:
-            if chunk == 1:
-                mins = maxs = 0
-            else:
-                mins = maxs = chunk // 2
-        else:
-            maxs = chunk // 2
-            mins = maxs - 1
-        return maxs, mins
-
     T = int(input())  # the number of test cases
 
     for case in range(1, T+1):
 
         N, K = map(int, input().split())
+        S = {N}
+        count = defaultdict(int)
+        count[N] = 1
+        P = 0
 
-        h = [-N]
+        while True:
+            chunk = max(S)
 
-        for _ in range(K):
-            chunk = -heappop(h)
-            maxs, mins = get_subchunks(chunk)
-            heappush(h, -mins)
-            heappush(h, -maxs)
+            if chunk & 1:
+                min_s = max_s = chunk // 2
+            else:
+                max_s = chunk // 2
+                min_s = max_s - 1
 
-        print('Case #{}: {} {}'.format(case, maxs, mins))
+            P += count[chunk]
+
+            if P >= K:
+                break
+
+            S.remove(chunk)
+            S.add(min_s)
+            S.add(max_s)
+
+            count[max_s] += count[chunk]
+            count[min_s] += count[chunk]
+
+        print('Case #{}: {} {}'.format(case, max_s, min_s))
 
 
 main()
