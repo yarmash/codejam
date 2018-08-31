@@ -4,12 +4,12 @@
 
 #### Qualification Round
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Oversized Pancake Flipper](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p0) | [ ] |          |
+|                                                                                                               |     |                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Oversized Pancake Flipper](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=0) |
 | [Problem B. Tidy Numbers](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p1)              | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=1) |
 | [Problem C. Bathroom Stalls](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p2)           | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=2) |
-| [Problem D. Fashion Show](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p3)              | [ ] |          |
+| [Problem D. Fashion Show](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p3)              | [ ] |                                                                                      |
 
 #### Round 1A
 
