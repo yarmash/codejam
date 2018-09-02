@@ -107,7 +107,7 @@
 |-------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
 | [A Whole New Word](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard)               | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e064) |
 | [Lollipop Shop](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e068) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e068) |
-| [Ant Stack](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8])     | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8) |
+| [Ant Stack](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8) |
 
 #### Round 2
 
