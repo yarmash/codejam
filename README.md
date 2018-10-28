@@ -13,9 +13,9 @@
 
 #### Round 1A
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Alphabet Cake](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p0)             | [ ] |          |
+|                                                                                                               |     |                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Alphabet Cake](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p0)             | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=a&a=0) |
 | [Problem B. Ratatouille](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p1)               | [ ] |          |
 | [Problem C. Play the Dragon](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p2)           | [ ] |          |
 
