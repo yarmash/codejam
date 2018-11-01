@@ -21,17 +21,17 @@
 
 #### Round 1B
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
+|                                                                                                               |     |                                                                                   |
+|---------------------------------------------------------------------------------------------------------------|-----|-----------------------------------------------------------------------------------|
 | [Problem A. Steed 2: Cruise Control](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p0)   | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p0) |
 | [Problem B. Stable Neigh-bors](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p1)         | [ ] |          |
 | [Problem C. Pony Express](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p2)              | [ ] |          |
 
 #### Round 1C
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Ample Syrup](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p0)               | [ ] |          |
+|                                                                                                               |     |                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Ample Syrup](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p0)               | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=a&a=0) |
 | [Problem B. Parenting Partnering](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p1)      | [ ] |          |
 | [Problem C. Core Training](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p2)             | [ ] |          |
 

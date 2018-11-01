@@ -2,7 +2,7 @@
 
 """Ample Syrup"""
 
-from itertools import combinations
+from heapq import nlargest
 from math import pi
 
 
@@ -11,7 +11,6 @@ def main():
         area = pi*(pancakes[0][0]**2)
         for p in pancakes:
             area += 2*pi*p[0]*p[1]
-
         return area
 
     T = int(input())  # the number of test cases
@@ -37,12 +36,16 @@ def main():
             print('Case #{}: {}'.format(case, area))
             continue
 
-        # remove needed number of pancakes
-        indices = list(range(N))
         max_area = 0
 
-        for c in combinations(indices, N-K):
-            area = calc_area([v for i, v in enumerate(pancakes) if i not in c])
+        for i, p in enumerate(pancakes):
+            if i + K > N:
+                break
+            stack = [p]
+            others = nlargest(K-1, pancakes[i+1:], key=lambda x: x[0]*x[1])
+            others.sort(reverse=True)  # not strictly necessary, just to follow the statement's rules
+            stack.extend(others)
+            area = calc_area(stack)
             if area > max_area:
                 max_area = area
 
