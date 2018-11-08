@@ -7,9 +7,9 @@
 |                                                                                                                 |     |                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
 | [Problem A. Counting Sheep](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p0&a=0)          | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=0) |
-| [Problem B. Revenge of the Pancakes](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p1&a=0) | [ ] | []() |
-| [Problem C. Coin Jam](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p2&a=0)                | [ ] | []() |
-| [Problem D. Fractiles](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p3&a=0)               | [ ] |                                                                                      |
+| [Problem B. Revenge of the Pancakes](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p1&a=0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=1) |
+| [Problem C. Coin Jam](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p2&a=0)                | [ ] | [analysis]() |
+| [Problem D. Fractiles](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p3&a=0)               | [ ] | [analysis]() |                                                                                     |
 
 #### Round 1A
 
