@@ -30,4 +30,5 @@ def main():
             else:
                 print(-1, flush=True)
 
+
 main()

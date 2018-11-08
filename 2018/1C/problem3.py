@@ -2,6 +2,7 @@
 
 """Ant Stack"""
 
+
 def max_stack(weights):
     capacities = [float('inf')]  # max sums of the ants' weight
 
@@ -28,5 +29,6 @@ def main():
 
         ans = max_stack(W)
         print('Case #{}: {}'.format(case, ans))
+
 
 main()

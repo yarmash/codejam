@@ -44,4 +44,5 @@ def main():
 
         print('Case #{}: {}'.format(case, res))
 
+
 main()

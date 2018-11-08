@@ -24,7 +24,7 @@ def main():
                 break
 
             for j in range(i, i+K):
-                 L[j] = '+' if L[j] == '-' else '-'
+                L[j] = '+' if L[j] == '-' else '-'
             times += 1
 
         if i == -1:
