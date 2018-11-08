@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 isort = "*"
 "flake8" = "*"
+"flake8-builtins" = "*"
 
 [requires]
 python_version = "3.7"
