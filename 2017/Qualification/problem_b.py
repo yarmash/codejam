@@ -15,7 +15,7 @@ def main():
             i += 1
 
         if i == len(L) - 1:
-            print('Case #{}: {}'.format(case, N))
+            print(f'Case #{case}: {N}')
         else:
             L[i] -= 1
             while i > 0 and L[i] < L[i-1]:
@@ -23,7 +23,7 @@ def main():
                 L[i] -= 1
             L[i+1:] = [9]*(len(L)-i-1)
 
-            print('Case #{}: {}'.format(case, int(''.join(map(str, L)))))
+            print(f'Case #{case}: {int("".join(map(str, L)))}')
 
 
 main()

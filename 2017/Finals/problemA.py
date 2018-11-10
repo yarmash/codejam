@@ -162,7 +162,7 @@ def main():
         values = list(starmap(DieValue, sorted(value2dice.items())))
         case = TestCase(ndice, values)
 
-        print("Case #{}: {}".format(i+1, case.find_longest_straight()))
+        print(f'Case #{i+1}: {case.find_longest_straight()}')
 
 
 main()

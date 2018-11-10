@@ -13,7 +13,7 @@ def main():
 
     for case in range(1, T+1):
         N, J = map(int, input().split())
-        print('Case #{}:'.format(case))
+        print(f'Case #{case}:')
 
         jamcoins = 0
 

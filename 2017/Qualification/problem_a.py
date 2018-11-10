@@ -28,9 +28,9 @@ def main():
             times += 1
 
         if i == -1:
-            print('Case #{}: {}'.format(case, times))
+            print(f'Case #{case}: {times}')
         else:
-            print('Case #{}: IMPOSSIBLE'.format(case, times))
+            print(f'Case #{case}: IMPOSSIBLE')
 
 
 main()

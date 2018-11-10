@@ -10,7 +10,7 @@ def main():
         S = input()  # the stack
         grouped_height = 1 + S.count('-+') + S.count('+-')
         flips = grouped_height if S.endswith('-') else grouped_height - 1
-        print('Case #{}: {}'.format(case, flips))
+        print(f'Case #{case}: {flips}')
 
 
 main()

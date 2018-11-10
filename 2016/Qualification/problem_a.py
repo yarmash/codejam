@@ -9,7 +9,7 @@ def main():
     for case in range(1, T+1):
         N = int(input())
         if N == 0:
-            print('Case #{}: INSOMNIA'.format(case))
+            print(f'Case #{case}: INSOMNIA')
             continue
 
         K = str(N)
@@ -21,7 +21,7 @@ def main():
             K = str(i*N)
             digits.update(K)
 
-        print('Case #{}: {}'.format(case, K))
+        print(f'Case #{case}: {K}')
 
 
 main()

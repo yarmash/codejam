@@ -23,7 +23,7 @@ def main():
 
         tmax = max((D - horse.position) / horse.speed for horse in horses)
 
-        print('Case #{}: {}'.format(case, D / tmax))
+        print(f'Case #{case}: {D / tmax}')
 
 
 main()

@@ -26,14 +26,14 @@ def main():
 
         if K == 1:
             area = max(calc_area([p]) for p in pancakes)
-            print('Case #{}: {}'.format(case, area))
+            print(f'Case #{case}: {area}')
             continue
 
         pancakes.sort(reverse=True)
 
         if K == N:
             area = calc_area(pancakes)
-            print('Case #{}: {}'.format(case, area))
+            print(f'Case #{case}: {area}')
             continue
 
         max_area = 0
@@ -49,7 +49,7 @@ def main():
             if area > max_area:
                 max_area = area
 
-        print('Case #{}: {}'.format(case, max_area))
+        print(f'Case #{case}: {max_area}')
 
 
 main()

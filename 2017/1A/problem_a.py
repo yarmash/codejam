@@ -7,7 +7,7 @@ def main():
     T = int(input())  # the number of test cases
 
     def print_grid(case, grid):
-        print('Case #{}:'.format(case))
+        print(f'Case #{case}:')
         for row in grid:
             print(*row, sep='')
 
