@@ -21,11 +21,11 @@
 
 #### Round 1B
 
-|                                                                                                               |     |                                                                                   |
-|---------------------------------------------------------------------------------------------------------------|-----|-----------------------------------------------------------------------------------|
-| []()   | [ ] | []() |
-| []()         | [ ] |          |
-| []()              | [ ] |          |
+|                                                                                                               |     |                                                                                       |
+|---------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
+| [Problem A. Getting the Digits](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p0)       | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=a&a=0) |
+| [Problem B. Close Match](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p1&a=0)          | [ ] | [analysis]()         |
+| [Problem C. Technobabble](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p2&a=0)         | [ ] | [analysis]()         |
 
 #### Round 1C
 
