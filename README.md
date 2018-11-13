@@ -31,9 +31,9 @@
 
 |                                                                                                               |     |                                                                                      |
 |---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| []()               | [ ] | []() |
-| []()      | [ ] |          |
-| []()             | [ ] |          |
+| [Problem A. Senate Evacuation](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=a&a=0) |
+| [Problem B. Slides!](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p1&a=0)               | [ ] |          |
+| [Problem C. Fashion Police](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p2&a=0)        | [ ] |          |
 
 #### Round 2
 
