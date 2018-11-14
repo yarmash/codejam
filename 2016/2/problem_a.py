@@ -33,7 +33,7 @@ def main():
 
         N, R, P, S = map(int, input().split())
 
-        lineup = ['P']*P + ['R']*R + ['S']*S
+        lineup = 'P'*P + 'R'*R + 'S'*S
 
         for p in permutations(lineup):
             if check_perm(N, p):
