@@ -2,45 +2,50 @@
 
 """Rather Perplexing Showdown"""
 
-from itertools import permutations
+from collections import Counter
 
 
 def main():
     T = int(input())  # the number of test cases
 
-    winner = {
-        ('R', 'S'): 'R',
-        ('S', 'R'): 'R',
-        ('S', 'P'): 'S',
-        ('P', 'S'): 'S',
-        ('P', 'R'): 'P',
-        ('R', 'P'): 'P',
+    match = {
+        'P': ('P', 'R'),
+        'R': ('R', 'S'),
+        'S': ('P', 'S'),
     }
 
-    def check_perm(N, p):
-        that = p
+    lineups = {}
 
-        for _ in range(N):
-            this = []
-            for x, y in zip(*[iter(that)]*2):
-                if x == y:
-                    return False
-                this.append(winner[(x, y)])
-            that = this
-        return True
+    for winner in ('P', 'R', 'S'):
+        tree = [winner]
+
+        for n in range(1, 13):  # 1 ≤ N ≤ 12
+            r = []
+            for w in tree[-1]:
+                r.extend(match[w])
+            tree.append(r)
+
+            cnt = Counter(r)
+            key = (cnt.get('P', 0), cnt.get('R', 0), cnt.get('S', 0))
+            lineups.setdefault(n, {})[key] = r
 
     for case in range(1, T+1):
-
         N, R, P, S = map(int, input().split())
 
-        lineup = 'P'*P + 'R'*R + 'S'*S
+        lineup = lineups[N].get((P, R, S))
 
-        for p in permutations(lineup):
-            if check_perm(N, p):
-                print(f'Case #{case}: ', *p, sep='')
-                break
-        else:
+        if lineup is None:
             print(f'Case #{case}: IMPOSSIBLE')
+        else:
+            # find the alphabetically earliest lineup
+            chunk_size = 4
+            while chunk_size <= len(lineup):
+                for i in range(0, len(lineup)-chunk_size+1, chunk_size):
+                    if lineup[i:i+chunk_size//2] > lineup[i+chunk_size//2:i+chunk_size]:
+                        lineup[i:i+chunk_size//2], lineup[i+chunk_size//2:i+chunk_size] = lineup[i+chunk_size//2:i+chunk_size], lineup[i:i+chunk_size//2]
+                chunk_size *= 2
+
+            print(f'Case #{case}: ', *lineup, sep='')
 
 
 main()

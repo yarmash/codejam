@@ -37,12 +37,12 @@
 
 #### Round 2
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| []()           | [ ] |          |
-| []() | [ ] |          |
-| []()          | [ ] |          |
-| []()         | [ ] |          |
+|                                                                                                                 |     |                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
+| [Problem A. Rather Perplexing Showdown](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=a&a=0) |
+| [Problem B. Red Tape Committee](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p1)         | [ ] |                                                                                       |
+| [Problem C. The Gardener of Seville](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p2)    | [ ] |                                                                                       |
+| [Problem D. Freeform Factory](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p3)           | [ ] |                                                                                       |
 
 #### Round 3
 
