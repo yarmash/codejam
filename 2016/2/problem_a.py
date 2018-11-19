@@ -2,8 +2,6 @@
 
 """Rather Perplexing Showdown"""
 
-from collections import Counter
-
 
 def main():
     T = int(input())  # the number of test cases
@@ -21,8 +19,7 @@ def main():
 
         for n in range(1, 13):  # 1 ≤ N ≤ 12
             this_round = [y for x in prev_round for y in match[x]]
-            cnt = Counter(this_round)
-            key = (cnt.get('P', 0), cnt.get('R', 0), cnt.get('S', 0))
+            key = (this_round.count('P'), this_round.count('R'), this_round.count('S'))
             lineups.setdefault(n, {})[key] = this_round
             prev_round = this_round
 
