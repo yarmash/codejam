@@ -17,17 +17,14 @@ def main():
     lineups = {}
 
     for winner in ('P', 'R', 'S'):
-        tree = [winner]
+        prev_round = [winner]
 
         for n in range(1, 13):  # 1 ≤ N ≤ 12
-            r = []
-            for w in tree[-1]:
-                r.extend(match[w])
-            tree.append(r)
-
-            cnt = Counter(r)
+            this_round = [y for x in prev_round for y in match[x]]
+            cnt = Counter(this_round)
             key = (cnt.get('P', 0), cnt.get('R', 0), cnt.get('S', 0))
-            lineups.setdefault(n, {})[key] = r
+            lineups.setdefault(n, {})[key] = this_round
+            prev_round = this_round
 
     for case in range(1, T+1):
         N, R, P, S = map(int, input().split())
