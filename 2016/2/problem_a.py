@@ -31,12 +31,13 @@ def main():
         if lineup is None:
             print(f'Case #{case}: IMPOSSIBLE')
         else:
-            # find the alphabetically earliest lineup
+            # find the alphabetically earliest version of the lineup
             chunk_size = 4
             while chunk_size <= len(lineup):
                 for i in range(0, len(lineup)-chunk_size+1, chunk_size):
-                    if lineup[i:i+chunk_size//2] > lineup[i+chunk_size//2:i+chunk_size]:
-                        lineup[i:i+chunk_size//2], lineup[i+chunk_size//2:i+chunk_size] = lineup[i+chunk_size//2:i+chunk_size], lineup[i:i+chunk_size//2]
+                    left, right = lineup[i:i+chunk_size//2], lineup[i+chunk_size//2:i+chunk_size]
+                    if left > right:
+                        lineup[i:i+chunk_size] = right + left
                 chunk_size *= 2
 
             print(f'Case #{case}: ', *lineup, sep='')
