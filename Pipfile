@@ -9,6 +9,7 @@ name = "pypi"
 isort = "*"
 "flake8" = "*"
 "flake8-builtins" = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"
