@@ -1,0 +1,19 @@
+version: '3'
+services:
+  neo4j:
+    image: neo4j:enterprise
+    environment:
+      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+      - NEO4J_AUTH=neo4j/password
+    # uncomment to use named volumes
+    #volumes:
+    #  - neo4j_data:/data
+    #  - neo4j_logs:/logs
+    ports:
+      - 6477:6477
+      - 7474:7474
+      - 7687:7687
+
+#volumes:
+#  neo4j_data:
+#  neo4j_logs:
