@@ -17,7 +17,7 @@
 |---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
 | [Problem A. The Last Word](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p0&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=0) |
 | [Problem B. Rank and File](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p1&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=1) |
-| [Problem C. BFFs](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p2&a=0)                  | [ ] | [analysis]()         |
+| [Problem C. BFFs](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p2&a=0)                  | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=2) |
 
 #### Round 1B
 

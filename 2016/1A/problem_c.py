@@ -2,45 +2,94 @@
 
 """BFFs"""
 
-from collections import namedtuple
+import sys
+from collections import defaultdict
+
+sys.setrecursionlimit(10000)
 
 
 def main():
-    Kid = namedtuple('Kid', ['id', 'bff_id'])
+
+    def find_component(kid, component, id_to_bff, bff_to_ids):
+        component.add(kid)
+
+        # this kid's bff
+        if id_to_bff[kid] not in component:
+            find_component(id_to_bff[kid], component, id_to_bff, bff_to_ids)
+
+        # kids for which this one is bff
+        for kid_id in bff_to_ids[kid]:
+            if kid_id not in component:
+                find_component(kid_id, component, id_to_bff, bff_to_ids)
+
+    def get_cycle_len(component, id_to_bff):
+        # find the cycle len
+        kid = next(iter(component))
+        seen = set()
+        while kid not in seen:
+            seen.add(kid)
+            kid = id_to_bff[kid]
+        # okay, we've reached the loop now
+        cycle = {kid}
+        start = kid
+        kid = id_to_bff[kid]
+        length = 1
+        while kid != start:
+            cycle.add(kid)
+            kid = id_to_bff[kid]
+            length += 1
+        return length, cycle
+
+    def get_chain_len(component, cycle, bff_to_ids):
+        def get_subchain_len(bff):
+            chain = 0
+            for kid in bff_to_ids[bff]:
+                if kid not in cycle:
+                    chain = max(chain, 1+get_subchain_len(kid))
+            return chain
+
+        chain_len = 2
+        for kid in cycle:
+            chain_len += get_subchain_len(kid)
+
+        return chain_len
 
     T = int(input())  # the number of test cases
 
     for case in range(1, T+1):
+        input()  # the total number of kids in the class, ignored
+        id_to_bff = {}  # every kid has a single bff
+        bff_to_ids = defaultdict(list)  # a kid may be a bff of multiple kids
 
-        N = int(input())  # the total number of kids in the class
-        kids = [Kid(i, int(v)) for i, v in enumerate(input().split(), 1)]
+        for kid_id, bff_id in enumerate(map(int, input().split()), 1):
+            id_to_bff[kid_id] = bff_id
+            bff_to_ids[bff_id].append(kid_id)
 
-        longest_circle = 0
-        stack = []
+        kids = set(id_to_bff)
 
-        for i, v in enumerate(kids):
-            stack.append(([v], [*kids[:i], *kids[i+1:]]))
+        components = []
 
-        while stack:
-            circle, remaining = stack.pop()
+        while kids:
+            component = set()
+            kid = kids.pop()
+            find_component(kid, component, id_to_bff, bff_to_ids)
+            components.append(component)
+            kids.difference_update(component)
 
-            if len(circle) > longest_circle and all(v.bff_id == circle[i-1].id or v.bff_id == circle[(i+1) % len(circle)].id
-                                                    for i, v in enumerate(circle)):
+        connectable_components = []
+        candidates = []
 
-                longest_circle = len(circle)
+        for component in components:
+            cycle_len, cycle = get_cycle_len(component, id_to_bff)
+            if cycle_len == 2:
+                chain_len = get_chain_len(component, cycle, bff_to_ids)
+                connectable_components.append(chain_len)
+            else:
+                candidates.append(cycle_len)
 
-            for i, v in enumerate(remaining):
-                if (
-                    # after adding this kid, the previous kid still is a friend with smb next to them
-                    (len(circle) == 1 or circle[-1].bff_id == v.id or circle[-1].bff_id == circle[-2].id) and (
-                        # this kid makes a pair on either side of the circle
-                        (circle[-1].bff_id == v.id or circle[-1].id == v.bff_id or circle[0].bff_id == v.id or circle[0].id == v.bff_id) or
-                        # this kid has a friend in remaining kids
-                        any(kid.bff_id == v.id or kid.id == v.bff_id for kid in remaining))):
+        res = max(max(candidates, default=0), sum(connectable_components))
 
-                    stack.append(([*circle, v], [*remaining[:i], *remaining[i+1:]]))
-
-        print(f'Case #{case}: {longest_circle}')
+        print(f'Case #{case}: {res}')
 
 
 main()
