@@ -46,23 +46,22 @@
 
 #### Round 3
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| []()               | [ ] |          |
-| []()    | [ ] |          |
-| []()             | [ ] |          |
-| []()              | [ ] |          |
+|                                                                                                       |     |              |
+|-------------------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Teaching Assistant](https://code.google.com/codejam/contest/3224486/dashboard#s=p0)       | [ ] | [analysis]() |
+| [Problem B. Forest University](https://code.google.com/codejam/contest/3224486/dashboard#s=p1)        | [ ] | [analysis]() |
+| [Problem C. Rebel Against The Empire](https://code.google.com/codejam/contest/3224486/dashboard#s=p2) | [ ] | [analysis]() |
+| [Problem D. Go++](https://code.google.com/codejam/contest/3224486/dashboard#s=p3)                     | [ ] | [analysis]() |
 
 #### World Finals
 
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| []()             | [ ] | []() |
-| []()                 | [ ] |          |
-| []()         | [ ] |          |
-| []()      | [ ] |          |
-| []()          | [ ] |          |
-| []()               | [ ] |          |
+|                                                                                                  |     |              |
+|--------------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Integeregex](https://code.google.com/codejam/contest/7234486/dashboard#s=p0)         | [ ] | [analysis]() |
+| [Problem B. Family Hotel](https://code.google.com/codejam/contest/7234486/dashboard#s=p1)        | [ ] |              |
+| [Problem C. Gallery of Pillars](https://code.google.com/codejam/contest/7234486/dashboard#s=p2)  | [ ] |              |
+| [Problem D. Map Reduce](https://code.google.com/codejam/contest/7234486/dashboard#s=p3)          | [ ] |              |
+| [Problem E. Radioactive Islands](https://code.google.com/codejam/contest/7234486/dashboard#s=p4) | [ ] |              |
 
 ### 2017
 
