@@ -41,16 +41,22 @@ def get_cycle(component, id_to_bff):
 
 def get_chain_len(component, cycle, bff_to_ids):
     """Find the longest chain that can be formed from a 2-cycle component."""
-    def get_subchain_len(bff):
-        chain = 0
-        for kid in bff_to_ids[bff]:
-            if kid not in cycle:
-                chain = max(chain, 1+get_subchain_len(kid))
-        return chain
-
     chain_len = 2
+
     for kid in cycle:
-        chain_len += get_subchain_len(kid)
+        max_subchain_len = 0
+        stack = [(kid, 0)]
+
+        while stack:
+            last_kid, subchain_len = stack.pop()
+            if subchain_len > max_subchain_len:
+                max_subchain_len = subchain_len
+
+            for kid_id in bff_to_ids[last_kid]:
+                if kid_id not in cycle:
+                    stack.append((kid_id, subchain_len + 1))
+
+        chain_len += max_subchain_len
 
     return chain_len
 
