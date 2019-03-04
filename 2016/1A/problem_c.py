@@ -2,25 +2,27 @@
 
 """BFFs"""
 
-import sys
 from collections import defaultdict
-
-sys.setrecursionlimit(10000)
 
 
 def main():
 
-    def find_component(kid, component, id_to_bff, bff_to_ids):
-        component.add(kid)
+    def get_component(kid, id_to_bff, bff_to_ids):
+        component = set()
+        stack = [kid]
+        while stack:
+            kid = stack.pop()
+            component.add(kid)
 
-        # this kid's bff
-        if id_to_bff[kid] not in component:
-            find_component(id_to_bff[kid], component, id_to_bff, bff_to_ids)
+            # this kid's bff
+            if id_to_bff[kid] not in component:
+                stack.append(id_to_bff[kid])
 
-        # kids for which this one is bff
-        for kid_id in bff_to_ids[kid]:
-            if kid_id not in component:
-                find_component(kid_id, component, id_to_bff, bff_to_ids)
+            # kids for which this one is bff
+            for kid_id in bff_to_ids[kid]:
+                if kid_id not in component:
+                    stack.append(kid_id)
+        return component
 
     def get_cycle_len(component, id_to_bff):
         # find the cycle len
@@ -66,13 +68,11 @@ def main():
             bff_to_ids[bff_id].append(kid_id)
 
         kids = set(id_to_bff)
-
         components = []
 
         while kids:
-            component = set()
             kid = kids.pop()
-            find_component(kid, component, id_to_bff, bff_to_ids)
+            component = get_component(kid, id_to_bff, bff_to_ids)
             components.append(component)
             kids.difference_update(component)
 
