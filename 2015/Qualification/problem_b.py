@@ -8,27 +8,15 @@ def main():
 
     for case in range(1, T+1):
         input()  # the number of diners with non-empty plates, ignored
-        diners = list(map(int, input().split()))
+        diners = [int(x) for x in input().split()]
 
-        minutes = float('inf')
-        stack = [(diners.copy(), 0)]
+        minutes = max(diners)  # the max stack of pancakes (= the max time)
 
-        while stack:
-            d, m = stack.pop()
-            md = max(d)
-            if m + md < minutes:
-                minutes = m + md
-
-            # split the largest plate
-            if m < minutes:
-                half = md // 2
-                for i in range(1, half+1):
-                    t = d.copy()
-                    j = t.index(md)
-                    t[j] -= i
-                    t.append(i)
-                    stack.append((t, m+1))
-
+        # try to arrange all pancakes to stacks of equal height
+        for ncakes in range(1, minutes):
+            s = sum([(d - 1) // ncakes for d in diners if d > ncakes])  # number of special minutes
+            if s + ncakes < minutes:
+                minutes = s + ncakes
 
         print(f'Case #{case}: {minutes}')
 

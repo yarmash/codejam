@@ -7,7 +7,7 @@
 |                                                                                                                |     |                                                                                      |
 |----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
 | [Problem A. Standing Ovation](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p0)           | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=a&a=0) |
-| [Problem B. Infinite House of Pancakes](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p1) | [ ] | [analysis]() |
+| [Problem B. Infinite House of Pancakes](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p1) | [x] | [analysis](https://code.google.com/codejam/contest/6224486/dashboard#s=a&a=1)        |
 | [Problem C. Dijkstra](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p2)                   | [ ] | [analysis]() |
 | [Problem D. Ominous Omino](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p3)              | [ ] | [analysis]() |
 
