@@ -13,4 +13,4 @@ ipython = "*"
 py2neo = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.5.3"
