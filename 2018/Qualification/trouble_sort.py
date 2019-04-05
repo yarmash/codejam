@@ -1,10 +1,16 @@
+#!/usr/bin/env python
+
+"""Trouble Sort"""
+
+from collections import Counter
+
+
 def main():
     T = int(input())
-    for j in range(T):
-        N = int(input())
-        L = [int(x) for x in input().split()]
 
-        from collections import Counter
+    for case in range(1, T+1):
+        N = int(input())
+        L = list(map(int, input().split()))
 
         c1 = Counter(L[::2])
         c2 = Counter(L[1::2])
@@ -27,7 +33,8 @@ def main():
                     break
         if valid == N:
             valid = 'OK'
-        print('Case #{}: {}'.format(j+1, valid))
+
+        print('Case #{}: {}'.format(case, valid))
 
 
 main()

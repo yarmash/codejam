@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+"""Saving The Universe Again"""
+
 
 def calc_damage(s):
     damage = 0
@@ -48,11 +50,11 @@ def calc_hacks(D, P):
 def main():
     T = int(input())
 
-    for i in range(T):
+    for case in range(1, T+1):
         D, P = input().split()
         D = int(D)
         h = calc_hacks(D, P)
-        print('Case #{}: {}'.format(i+1, h))
+        print('Case #{}: {}'.format(case, h))
 
 
 main()
