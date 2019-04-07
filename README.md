@@ -1,130 +1,76 @@
 ## Solutions to Google Code Jam problems
 
-### 2015
+### 2018
+
+#### Practice Session
+
+|                                                                                                                       |     |                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Number Guessing](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard)                          | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000523) |
+| [Senate Evacuation](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/00000000000004c0)       | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/00000000000004c0) |
+| [Steed 2: Cruise Control](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000524) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000524) |
+| [Bathroom Stalls](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000652)         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000652) |
 
 #### Qualification Round
 
-|                                                                                                                |     |                                                                                      |
-|----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Standing Ovation](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p0)           | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=a&a=0) |
-| [Problem B. Infinite House of Pancakes](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p1) | [x] | [analysis](https://code.google.com/codejam/contest/6224486/dashboard#s=a&a=1)        |
-| [Problem C. Dijkstra](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p2)                   | [ ] | [analysis]() |
-| [Problem D. Ominous Omino](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p3)              | [ ] | [analysis]() |
+|                                                                                                            |     |                                                                                                       |
+|------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Saving The Universe Again](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007966) |
+| [Trouble Sort](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cb) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cb) |
+| [Go, Gopher!](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/0000000000007a30)  | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007a30) |
+| [Cubic UFO](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cc)    | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cc) |
 
 #### Round 1A
 
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| []()         | [ ] | [analysis]() |
-| []()         | [ ] | [analysis]() |
-| []()         | [ ] | [analysis]() |
+|                                                                                                           |     |                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Waffle Choppers](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard)              | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000003005a) |
+| [Bit Party](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff6)   | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff6) |
+| [Edgy Baking](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff7) | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff7) |
 
 #### Round 1B
 
-|                                                                                                               |     |                                                                                       |
-|---------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
-| []()       | [ ] | [analysis]() |
-| []()       | [ ] | [analysis]()         |
-| []()       | [ ] | [analysis]()         |
+|                                                                                                                     |     |                                                                                                       |
+|---------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Rounding Error](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard)                         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/0000000000036601) |
+| [Mysterious Road Signs](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675b) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675b) |
+| [Transmutation](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675c)         | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675c) |
 
 #### Round 1C
 
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| []()         | [ ] | [analysis]() |
-| []()         | [ ] |          |
-| []()         | [ ] |          |
+|                                                                                                             |     |                                                                                                       |
+|-------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [A Whole New Word](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard)               | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e064) |
+| [Lollipop Shop](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e068) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e068) |
+| [Ant Stack](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8) |
 
 #### Round 2
 
-|                                                                                                                 |     |                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
-| []() | [ ] | [analysis]() |
-| []()         | [ ] |                                                                                       |
-| []()    | [ ] |                                                                                       |
-| []()           | [ ] |                                                                                       |
+|                                                                                                                          |     |                                                                                                       |
+|--------------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Falling Balls](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard)                               | [ ] | [analysis]() |
+| [Graceful Chainsaw Jugglers](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f3) | [ ] | [analysis]() |
+| [Costume Change](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/0000000000045875)             | [ ] | [analysis]() |
+| [Gridception](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f4)                | [ ] | [analysis]() |
 
 #### Round 3
 
-|                                                                                                       |     |              |
-|-------------------------------------------------------------------------------------------------------|-----|--------------|
-| []()       | [ ] | [analysis]() |
-| []()        | [ ] | [analysis]() |
-| []() | [ ] | [analysis]() |
-| []()                     | [ ] | [analysis]() |
+|                                                                                                                       |     |                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Field Trip](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard)                               | [ ] | [analysis]() |
+| [Name-Preserving Network](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e) | [ ] | [analysis]() |
+| [Raise the Roof](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90d)          | [ ] | [analysis]() |
+| [Fence Construction](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e)      | [ ] | [analysis]() |
 
 #### World Finals
 
-|                                                                                                  |     |              |
-|--------------------------------------------------------------------------------------------------|-----|--------------|
-| []()         | [ ] | [analysis]() |
-| []()        | [ ] |              |
-| []()  | [ ] |              |
-| []()          | [ ] |              |
-| []() | [ ] |              |
-
-### 2016
-
-#### Qualification Round
-
-|                                                                                                                 |     |                                                                                      |
-|-----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Counting Sheep](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p0&a=0)          | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=0) |
-| [Problem B. Revenge of the Pancakes](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p1&a=0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=1) |
-| [Problem C. Coin Jam](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p2&a=0)                | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=2) |
-| [Problem D. Fractiles](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p3&a=0)               | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=3) |
-
-#### Round 1A
-
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. The Last Word](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p0&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=0) |
-| [Problem B. Rank and File](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p1&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=1) |
-| [Problem C. BFFs](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p2&a=0)                  | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=2) |
-
-#### Round 1B
-
-|                                                                                                               |     |                                                                                       |
-|---------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
-| [Problem A. Getting the Digits](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p0)       | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=a&a=0) |
-| [Problem B. Close Match](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p1&a=0)          | [ ] | [analysis]()         |
-| [Problem C. Technobabble](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p2&a=0)         | [ ] | [analysis]()         |
-
-#### Round 1C
-
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Senate Evacuation](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=a&a=0) |
-| [Problem B. Slides!](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p1&a=0)               | [ ] |          |
-| [Problem C. Fashion Police](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p2&a=0)        | [ ] |          |
-
-#### Round 2
-
-|                                                                                                                 |     |                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
-| [Problem A. Rather Perplexing Showdown](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=a&a=0) |
-| [Problem B. Red Tape Committee](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p1)         | [ ] |                                                                                       |
-| [Problem C. The Gardener of Seville](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p2)    | [ ] |                                                                                       |
-| [Problem D. Freeform Factory](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p3)           | [ ] |                                                                                       |
-
-#### Round 3
-
-|                                                                                                       |     |              |
-|-------------------------------------------------------------------------------------------------------|-----|--------------|
-| [Problem A. Teaching Assistant](https://code.google.com/codejam/contest/3224486/dashboard#s=p0)       | [ ] | [analysis]() |
-| [Problem B. Forest University](https://code.google.com/codejam/contest/3224486/dashboard#s=p1)        | [ ] | [analysis]() |
-| [Problem C. Rebel Against The Empire](https://code.google.com/codejam/contest/3224486/dashboard#s=p2) | [ ] | [analysis]() |
-| [Problem D. Go++](https://code.google.com/codejam/contest/3224486/dashboard#s=p3)                     | [ ] | [analysis]() |
-
-#### World Finals
-
-|                                                                                                  |     |              |
-|--------------------------------------------------------------------------------------------------|-----|--------------|
-| [Problem A. Integeregex](https://code.google.com/codejam/contest/7234486/dashboard#s=p0)         | [ ] | [analysis]() |
-| [Problem B. Family Hotel](https://code.google.com/codejam/contest/7234486/dashboard#s=p1)        | [ ] |              |
-| [Problem C. Gallery of Pillars](https://code.google.com/codejam/contest/7234486/dashboard#s=p2)  | [ ] |              |
-| [Problem D. Map Reduce](https://code.google.com/codejam/contest/7234486/dashboard#s=p3)          | [ ] |              |
-| [Problem E. Radioactive Islands](https://code.google.com/codejam/contest/7234486/dashboard#s=p4) | [ ] |              |
+|                                                                                                                 |     |                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
+| [Jurisdiction Restrictions](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard)          | [ ] | [analysis]() |
+| [Two-Tiling](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da97)        | [ ] | [analysis]() |
+| [Go, Gophers!](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da2d)      | [ ] | [analysis]() |
+| [Swordmaster](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d961)       | [ ] | [analysis]() |
+| [The Cartesian Job](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d962) | [ ] | [analysis]() |
 
 ### 2017
 
@@ -190,75 +136,130 @@
 | [Problem E. Stack Management](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p4)          | [ ] |          |
 | [Problem F. Teleporters](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p5)               | [ ] |          |
 
-
-### 2018
-
-#### Practice Session
-
-|                                                                                                                       |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Number Guessing](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard)                          | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000523) |
-| [Senate Evacuation](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/00000000000004c0)       | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/00000000000004c0) |
-| [Steed 2: Cruise Control](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000524) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000524) |
-| [Bathroom Stalls](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000652)         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000652) |
+### 2016
 
 #### Qualification Round
 
-|                                                                                                            |     |                                                                                                       |
-|------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Saving The Universe Again](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007966) |
-| [Trouble Sort](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cb) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cb) |
-| [Go, Gopher!](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/0000000000007a30)  | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007a30) |
-| [Cubic UFO](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cc)    | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cc) |
+|                                                                                                                 |     |                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Counting Sheep](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p0&a=0)          | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=0) |
+| [Problem B. Revenge of the Pancakes](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p1&a=0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=1) |
+| [Problem C. Coin Jam](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p2&a=0)                | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=2) |
+| [Problem D. Fractiles](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=p3&a=0)               | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6254486/dashboard#s=a&a=3) |
 
 #### Round 1A
 
-|                                                                                                           |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Waffle Choppers](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard)              | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000003005a) |
-| [Bit Party](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff6)   | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff6) |
-| [Edgy Baking](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff7) | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff7) |
+|                                                                                                               |     |                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. The Last Word](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p0&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=0) |
+| [Problem B. Rank and File](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p1&a=0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=1) |
+| [Problem C. BFFs](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=p2&a=0)                  | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4304486/dashboard#s=a&a=2) |
 
 #### Round 1B
 
-|                                                                                                                     |     |                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Rounding Error](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard)                         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/0000000000036601) |
-| [Mysterious Road Signs](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675b) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675b) |
-| [Transmutation](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675c)         | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675c) |
+|                                                                                                               |     |                                                                                       |
+|---------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
+| [Problem A. Getting the Digits](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p0)       | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=a&a=0) |
+| [Problem B. Close Match](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p1&a=0)          | [ ] | [analysis]()         |
+| [Problem C. Technobabble](https://codejam.withgoogle.com/codejam/contest/11254486/dashboard#s=p2&a=0)         | [ ] | [analysis]()         |
 
 #### Round 1C
 
-|                                                                                                             |     |                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [A Whole New Word](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard)               | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e064) |
-| [Lollipop Shop](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e068) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e068) |
-| [Ant Stack](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8) |
+|                                                                                                               |     |                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Senate Evacuation](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p0)         | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=a&a=0) |
+| [Problem B. Slides!](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p1&a=0)               | [ ] |          |
+| [Problem C. Fashion Police](https://codejam.withgoogle.com/codejam/contest/4314486/dashboard#s=p2&a=0)        | [ ] |          |
 
 #### Round 2
 
-|                                                                                                                          |     |                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Falling Balls](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard)                               | [ ] | [analysis]() |
-| [Graceful Chainsaw Jugglers](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f3) | [ ] | [analysis]() |
-| [Costume Change](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/0000000000045875)             | [ ] | [analysis]() |
-| [Gridception](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f4)                | [ ] | [analysis]() |
+|                                                                                                                 |     |                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
+| [Problem A. Rather Perplexing Showdown](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p0) | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=a&a=0) |
+| [Problem B. Red Tape Committee](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p1)         | [ ] |                                                                                       |
+| [Problem C. The Gardener of Seville](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p2)    | [ ] |                                                                                       |
+| [Problem D. Freeform Factory](https://codejam.withgoogle.com/codejam/contest/10224486/dashboard#s=p3)           | [ ] |                                                                                       |
 
 #### Round 3
 
-|                                                                                                                       |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Field Trip](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard)                               | [ ] | [analysis]() |
-| [Name-Preserving Network](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e) | [ ] | [analysis]() |
-| [Raise the Roof](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90d)          | [ ] | [analysis]() |
-| [Fence Construction](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e)      | [ ] | [analysis]() |
+|                                                                                                       |     |              |
+|-------------------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Teaching Assistant](https://code.google.com/codejam/contest/3224486/dashboard#s=p0)       | [ ] | [analysis]() |
+| [Problem B. Forest University](https://code.google.com/codejam/contest/3224486/dashboard#s=p1)        | [ ] | [analysis]() |
+| [Problem C. Rebel Against The Empire](https://code.google.com/codejam/contest/3224486/dashboard#s=p2) | [ ] | [analysis]() |
+| [Problem D. Go++](https://code.google.com/codejam/contest/3224486/dashboard#s=p3)                     | [ ] | [analysis]() |
 
-### World Finals
+#### World Finals
 
-|                                                                                                                 |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Jurisdiction Restrictions](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard)          | [ ] | [analysis]() |
-| [Two-Tiling](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da97)        | [ ] | [analysis]() |
-| [Go, Gophers!](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da2d)      | [ ] | [analysis]() |
-| [Swordmaster](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d961)       | [ ] | [analysis]() |
-| [The Cartesian Job](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d962) | [ ] | [analysis]() |
+|                                                                                                  |     |              |
+|--------------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Integeregex](https://code.google.com/codejam/contest/7234486/dashboard#s=p0)         | [ ] | [analysis]() |
+| [Problem B. Family Hotel](https://code.google.com/codejam/contest/7234486/dashboard#s=p1)        | [ ] |              |
+| [Problem C. Gallery of Pillars](https://code.google.com/codejam/contest/7234486/dashboard#s=p2)  | [ ] |              |
+| [Problem D. Map Reduce](https://code.google.com/codejam/contest/7234486/dashboard#s=p3)          | [ ] |              |
+| [Problem E. Radioactive Islands](https://code.google.com/codejam/contest/7234486/dashboard#s=p4) | [ ] |              |
+
+### 2015
+
+#### Qualification Round
+
+|                                                                                                                |     |                                                                                      |
+|----------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Standing Ovation](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p0)           | [x] | [analysis](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=a&a=0) |
+| [Problem B. Infinite House of Pancakes](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p1) | [x] | [analysis](https://code.google.com/codejam/contest/6224486/dashboard#s=a&a=1)        |
+| [Problem C. Dijkstra](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p2)                   | [ ] | [analysis]() |
+| [Problem D. Ominous Omino](https://codejam.withgoogle.com/codejam/contest/6224486/dashboard#s=p3)              | [ ] | [analysis]() |
+
+#### Round 1A
+
+|                                                                                               |     |                                                                                      |
+|-----------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Mushroom Monster](https://code.google.com/codejam/contest/4224486/dashboard#s=p0) | [ ] | [analysis]() |
+| [Problem B. Haircut](https://code.google.com/codejam/contest/4224486/dashboard#s=p1)          | [ ] | [analysis]() |
+| [Problem C. Logging](https://code.google.com/codejam/contest/4224486/dashboard#s=p2)          | [ ] | [analysis]() |
+
+#### Round 1B
+
+|                                                                                              |     |              |
+|----------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Counter Culture](https://code.google.com/codejam/contest/8224486/dashboard#s=p0) | [ ] | [analysis]() |
+| [Problem B. Noisy Neighbors](https://code.google.com/codejam/contest/8224486/dashboard#s=p1) | [ ] | [analysis]() |
+| [Problem C. Hiking Deer](https://code.google.com/codejam/contest/8224486/dashboard#s=p2)     | [ ] | [analysis]() |
+
+#### Round 1C
+
+|                                                                                                        |     |                                                                                      |
+|--------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
+| [Problem A. Brattleship](https://code.google.com/codejam/contest/4244486/dashboard#s=p0)               | [ ] | [analysis]() |
+| [Problem B. Typewriter Monkey](https://code.google.com/codejam/contest/4244486/dashboard#s=p1)         | [ ] |          |
+| [Problem C. Less Money, More Problems](https://code.google.com/codejam/contest/4244486/dashboard#s=p2) | [ ] |          |
+
+#### Round 2
+
+|                                                                                             |     |                                                                                       |
+|---------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------|
+| [Problem A. Pegman](https://code.google.com/codejam/contest/8234486/dashboard#s=p0)         | [ ] | [analysis]() |
+| [Problem B. Kiddie Pool](https://code.google.com/codejam/contest/8234486/dashboard#s=p1)    | [ ] |                                                                                       |
+| [Problem C. Bilingual](https://code.google.com/codejam/contest/8234486/dashboard#s=p2)      | [ ] |                                                                                       |
+| [Problem D. Drum Decorator](https://code.google.com/codejam/contest/8234486/dashboard#s=p3) | [ ] |                                                                                       |
+
+#### Round 3
+
+|                                                                                               |     |              |
+|-----------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Fairland](https://code.google.com/codejam/contest/4254486/dashboard#s=p0)         | [ ] | [analysis]() |
+| [Problem B. Smoothing Window](https://code.google.com/codejam/contest/4254486/dashboard#s=p1) | [ ] | [analysis]() |
+| [Problem C. Runaway Quail](https://code.google.com/codejam/contest/4254486/dashboard#s=p2)    | [ ] | [analysis]() |
+| [Problem D. Log Set](https://code.google.com/codejam/contest/4254486/dashboard#s=p3)          | [ ] | [analysis]() |
+| [Problem E. River Flow](https://code.google.com/codejam/contest/4254486/dashboard#s=p4)       | [ ] | [analysis]() |
+
+#### World Finals
+
+|                                                                                                     |     |              |
+|-----------------------------------------------------------------------------------------------------|-----|--------------|
+| [Problem A. Costly Binary Search](https://code.google.com/codejam/contest/5224486/dashboard#s=p0)   | [ ] | [analysis]() |
+| [Problem B. Campinatorics](https://code.google.com/codejam/contest/5224486/dashboard#s=p1)          | [ ] |              |
+| [Problem C. Pretty Good Proportion](https://code.google.com/codejam/contest/5224486/dashboard#s=p2) | [ ] |              |
+| [Problem D. Taking Over The World](https://code.google.com/codejam/contest/5224486/dashboard#s=p3)  | [ ] |              |
+| [Problem E. Merlin QA](https://code.google.com/codejam/contest/5224486/dashboard#s=p4)              | [ ] |              |
+| [Problem F. Crane Truck](https://code.google.com/codejam/contest/5224486/dashboard#s=p5)            | [ ] |              |
