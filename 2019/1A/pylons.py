@@ -2,8 +2,10 @@
 
 """Pylons"""
 
+# TODO: implement the solution using the 'constructive' approach mentioned in the analysis
+
 from itertools import product, repeat
-from random import shuffle
+from random import choice
 
 
 def main():
@@ -12,36 +14,30 @@ def main():
     for case in range(1, T+1):
         R, C = map(int, input().split())  # the numbers of rows and columns
 
-        def search(moves, grid):
-            if len(moves) == R*C:
-                return moves
-
-            cells = [(r, c) for r, c in product(range(R), range(C))
-                     if (not grid[r][c] and r != moves[-1][0] and c != moves[-1][1]
-                         and moves[-1][0] - moves[-1][1] != r - c
-                         and moves[-1][0] + moves[-1][1] != r + c)]
-            shuffle(cells)
-            for r, c in cells:
-                g = [r[:] for r in grid]
-                g[r][c] = True
-                res = search(moves+((r, c),), g)
-                if res is not None:
-                    return res
-
-        cells = list(product(range(R), range(C)))
-        shuffle(cells)
-
-        for r, c in cells:
-            grid = [[False]*C for _ in repeat(None, R)]
-            grid[r][c] = True
-            res = search(((r, c),), grid)
-            if res is not None:
-                print('Case #{}: POSSIBLE'.format(case))
-                for r, c in res:
-                    print(r+1, c+1)
-                break
-        else:
+        if R < 2 or C < 2 or R + C < 7:
             print('Case #{}: IMPOSSIBLE'.format(case))
+        else:
+            print('Case #{}: POSSIBLE'.format(case))
+
+            while True:
+                grid = [[False]*C for _ in repeat(None, R)]
+                moves = []
+                last = None
+                for _ in repeat(None, R*C):
+                    candidates = ([(r, c) for r, c in product(range(R), range(C)) if not grid[r][c]
+                                   and r != last[0] and c != last[1] and last[0] - last[1] != r - c
+                                   and last[0] + last[1] != r + c]
+                                  if last is not None else list(product(range(R), range(C))))
+                    if not candidates:
+                        break
+                    cell = choice(candidates)
+                    moves.append(cell)
+                    grid[cell[0]][cell[1]] = True
+                    last = cell
+                else:
+                    for r, c in moves:
+                        print(r+1, c+1)
+                    break
 
 
 main()
