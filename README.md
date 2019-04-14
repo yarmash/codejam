@@ -11,6 +11,14 @@
 | [Cryptopangrams](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b)          | [x] |
 | [Dat Bae](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de)                 | [x] |
 
+#### Round 1A
+
+|                                                                                                           |     |
+|-----------------------------------------------------------------------------------------------------------|-----|
+| [Pylons](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03)       | [x] |
+| [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [ ] |
+| [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05)  | [ ] |
+
 ### 2018
 
 #### Practice Session

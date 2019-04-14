@@ -4,8 +4,21 @@
 
 # TODO: implement the solution using the 'constructive' approach mentioned in the analysis
 
+import random
 from itertools import product, repeat
-from random import choice
+
+
+def select_random_element(it, randrange=random.randrange):
+    """
+    Return a random element from iterator (exhausting the iterator).
+    If the iterator is empty, return `None`.
+    The algorithm runs in O(n) time and O(1) space.
+    """
+    selection = None
+    for i, item in enumerate(it, start=1):
+        if randrange(i) == 0:  # random int in range [0..i)
+            selection = item
+    return selection
 
 
 def main():
@@ -24,13 +37,14 @@ def main():
                 moves = []
                 last = None
                 for _ in repeat(None, R*C):
-                    candidates = ([(r, c) for r, c in product(range(R), range(C)) if not grid[r][c]
-                                   and r != last[0] and c != last[1] and last[0] - last[1] != r - c
-                                   and last[0] + last[1] != r + c]
-                                  if last is not None else list(product(range(R), range(C))))
-                    if not candidates:
+                    it = (product(range(R), range(C)) if last is None
+                          else
+                          ((r, c) for r, c in product(range(R), range(C)) if not grid[r][c]
+                           and r != last[0] and c != last[1] and last[0] - last[1] != r - c
+                           and last[0] + last[1] != r + c))
+                    cell = select_random_element(it)
+                    if cell is None:
                         break
-                    cell = choice(candidates)
                     moves.append(cell)
                     grid[cell[0]][cell[1]] = True
                     last = cell
