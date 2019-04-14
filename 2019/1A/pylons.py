@@ -2,7 +2,8 @@
 
 """Pylons"""
 
-from itertools import repeat, product
+from itertools import product, repeat
+from random import shuffle
 
 
 def main():
@@ -11,28 +12,34 @@ def main():
     for case in range(1, T+1):
         R, C = map(int, input().split())  # the numbers of rows and columns
 
-        stack = []
+        def search(moves, grid):
+            if len(moves) == R*C:
+                return moves
 
-        for r, c in product(range(R), range(C)):
+            cells = [(r, c) for r, c in product(range(R), range(C))
+                     if (not grid[r][c] and r != moves[-1][0] and c != moves[-1][1]
+                         and moves[-1][0] - moves[-1][1] != r - c
+                         and moves[-1][0] + moves[-1][1] != r + c)]
+            shuffle(cells)
+            for r, c in cells:
+                g = [r[:] for r in grid]
+                g[r][c] = True
+                res = search(moves+((r, c),), g)
+                if res is not None:
+                    return res
+
+        cells = list(product(range(R), range(C)))
+        shuffle(cells)
+
+        for r, c in cells:
             grid = [[False]*C for _ in repeat(None, R)]
             grid[r][c] = True
-            stack.append((((r, c),), grid))
-
-        while stack:
-            moves, grid = stack.pop()
-            if len(moves) == R*C:
+            res = search(((r, c),), grid)
+            if res is not None:
                 print('Case #{}: POSSIBLE'.format(case))
-                for r, c in moves:
+                for r, c in res:
                     print(r+1, c+1)
                 break
-
-            for r, c in product(range(R), range(C)):
-                if (not grid[r][c] and r != moves[-1][0] and c != moves[-1][1]
-                        and moves[-1][0] - moves[-1][1] != r - c
-                        and moves[-1][0] + moves[-1][1] != r + c):
-                    g = [r.copy() for r in grid]
-                    g[r][c] = True
-                    stack.append((moves+((r, c),), g))
         else:
             print('Case #{}: IMPOSSIBLE'.format(case))
 
