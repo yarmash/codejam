@@ -16,7 +16,7 @@
 |                                                                                                           |     |
 |-----------------------------------------------------------------------------------------------------------|-----|
 | [Pylons](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03)       | [x] |
-| [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [ ] |
+| [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [x] |
 | [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05)  | [ ] |
 
 ### 2018

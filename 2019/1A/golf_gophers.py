@@ -3,26 +3,33 @@
 """Golf Gophers"""
 
 from itertools import repeat
-from collections import defaultdict
 
 
+# TODO: reduce the time complexity of the algorithm
 def main():
     T, N, M = map(int, input().split())
 
-    for _ in repeat(None, T):
-        seen = defaultdict(int)
+    numbers = (7, 11, 13, 15, 16, 17)  # pairwise coprime
 
-        for n in range(N):
-            print(*[18]*18, flush=True)
+    for _ in repeat(None, T):
+        remainders = []
+        for n in numbers:
+            print(*[n]*18, flush=True)
 
             resp = input()
             if resp == '-1':
                 return
 
-            m = sum(map(int, resp.split()))
-            seen[m] += 1
+            r = sum(map(int, resp.split())) % n
+            remainders.append(r)
 
-        print(max(seen, key=seen.get), flush=True)
+        for m in range(1, M+1):
+            for i, n in enumerate(numbers):
+                if m % n != remainders[i]:
+                    break
+            else:
+                break
+        print(m)
 
         resp = input()
         if resp != '1':
