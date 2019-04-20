@@ -2,10 +2,34 @@
 
 """Golf Gophers"""
 
+from functools import reduce
 from itertools import repeat
+from operator import mul
 
 
-# TODO: reduce the time complexity of the algorithm
+def chinese_remainder(n, a):
+    s = 0
+    prod = reduce(mul, n)
+    for n_i, a_i in zip(n, a):
+        p = prod // n_i
+        s += a_i * mul_inv(p, n_i) * p
+    return s % prod
+
+
+def mul_inv(a, b):
+    b0 = b
+    x0, x1 = 0, 1
+    if b == 1:
+        return 1
+    while a > 1:
+        q = a // b
+        a, b = b, a % b
+        x0, x1 = x1 - q * x0, x0
+    if x1 < 0:
+        x1 += b0
+    return x1
+
+
 def main():
     T, N, M = map(int, input().split())
 
@@ -23,13 +47,7 @@ def main():
             r = sum(map(int, resp.split())) % n
             remainders.append(r)
 
-        for m in range(1, M+1):
-            for i, n in enumerate(numbers):
-                if m % n != remainders[i]:
-                    break
-            else:
-                break
-        print(m)
+        print(chinese_remainder(numbers, remainders), flush=True)
 
         resp = input()
         if resp != '1':
