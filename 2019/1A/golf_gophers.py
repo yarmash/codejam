@@ -8,15 +8,24 @@ from operator import mul
 
 
 def chinese_remainder(n, a):
+    """
+    Chinese Remainder Theorem.
+
+    :param n: list of pairwise relatively prime integers
+    :param a: remainders when x is divided by n
+    """
     s = 0
     prod = reduce(mul, n)
     for n_i, a_i in zip(n, a):
         p = prod // n_i
-        s += a_i * mul_inv(p, n_i) * p
+        s += a_i * inverse(p, n_i) * p
     return s % prod
 
 
-def mul_inv(a, b):
+def inverse(a, b):
+    """
+    Modular multiplicative inverse.
+    """
     b0 = b
     x0, x1 = 0, 1
     if b == 1:
