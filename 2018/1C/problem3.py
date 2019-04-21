@@ -24,7 +24,7 @@ def main():
 
     for case in range(1, T+1):
         N = int(input())  # number of ants
-        W = [int(x) for x in input().split()]  # weights of the ants, in increasing order of length
+        W = list(map(int, input().split()))  # weights of the ants, in increasing order of length
         W.reverse()
 
         ans = max_stack(W)
