@@ -65,7 +65,7 @@ def main():
     T = int(input())  # the number of test cases
 
     for case in range(1, T+1):
-        input()  # the total number of kids in the class, ignored
+        N = int(input())  # the total number of kids in the class
         id_to_bff = {}  # every kid has a single bff
         bff_to_ids = defaultdict(list)  # a kid may be a bff of multiple kids
         kids = set()

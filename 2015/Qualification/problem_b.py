@@ -7,8 +7,8 @@ def main():
     T = int(input())  # the number of test cases
 
     for case in range(1, T+1):
-        input()  # the number of diners with non-empty plates, ignored
-        diners = [int(x) for x in input().split()]
+        D = int(input())  # the number of diners with non-empty plates
+        diners = list(map(int, input().split()))
 
         minutes = max(diners)  # the max stack of pancakes (= the max time)
 
