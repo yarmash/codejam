@@ -10,7 +10,7 @@ def main():
 
     def get_pos(people):
         # the crepe cart must be either at position 0, or at a cell that is one cell to the right of some person
-        candidates = dict.fromkeys(chain([0], [i + 1 for i, d in people]), 0)
+        candidates = dict.fromkeys(chain([0], [i + 1 for i, d in people if d in 'EN']), 0)
 
         for i in candidates:
             for j, d in people:
