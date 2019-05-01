@@ -19,6 +19,14 @@
 | [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [x] |
 | [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05)  | [x] |
 
+#### Round 1B
+
+|                                                                                                                   |     |
+|-------------------------------------------------------------------------------------------------------------------|-----|
+| [Manhattan Crepe Cart](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c) | [x] |
+| [Draupnir](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837)             | [ ] |
+| [Fair Fight](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838)           | [ ] |
+
 ### 2018
 
 #### Practice Session
