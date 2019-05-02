@@ -40,12 +40,12 @@
 
 #### Qualification Round
 
-|                                                                                                            |     |                                                                                                       |
-|------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Saving The Universe Again](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007966) |
-| [Trouble Sort](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cb) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cb) |
-| [Go, Gopher!](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/0000000000007a30)  | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/0000000000007a30) |
-| [Cubic UFO](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard/00000000000079cc)    | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/analysis/00000000000079cc) |
+|                                                                                                                        |     |
+|------------------------------------------------------------------------------------------------------------------------|-----|
+| [Saving The Universe Again](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966) | [x] |
+| [Trouble Sort](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cb)              | [x] |
+| [Go, Gopher!](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007a30)               | [x] |
+| [Cubic UFO](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cc)                 | [ ] |
 
 #### Round 1A
 
