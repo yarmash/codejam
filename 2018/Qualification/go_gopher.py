@@ -4,8 +4,8 @@
 
 
 def free_cells(M, i, j):
-    return sum(1 for c in (M[i][j], M[i-1][j-1], M[i-1][j], M[i-1][j+1], M[i][j+1],
-                           M[i+1][j+1], M[i+1][j], M[i+1][j-1], M[i][j-1]) if not c)
+    return sum(not c for c in (M[i][j], M[i-1][j-1], M[i-1][j], M[i-1][j+1], M[i][j+1],
+                               M[i+1][j+1], M[i+1][j], M[i+1][j-1], M[i][j-1]))
 
 
 def main():
