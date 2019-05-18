@@ -27,6 +27,14 @@
 | [Draupnir](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837)             | [ ] |
 | [Fair Fight](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838)           | [ ] |
 
+#### Round 1C
+
+|                                                                                                                         |     |
+|-------------------------------------------------------------------------------------------------------------------------|-----|
+| [Robot Programming Strategy](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90) | [x] |
+| [Power Arrangers](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91)            | [ ] |
+| [Bacterial Tactics](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf)          | [ ] |
+
 ### 2018
 
 #### Practice Session
