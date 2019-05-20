@@ -4,23 +4,23 @@
 
 from itertools import cycle, repeat
 
-
-def is_beaten_by(x, y, m={'R': 'P', 'P': 'S', 'S': 'R'}):
-    return y == m[x]
+BEATEN_BY = {'R': 'P', 'P': 'S', 'S': 'R'}  # what's beaten by what
 
 
 def make_move(moves):
-    move, beaten = None, []
-
-    for choice in 'RPS':
-        if any(is_beaten_by(choice, move) for move in moves):
-            continue
-        indices = [i for i, move in enumerate(moves) if is_beaten_by(move, choice)]
-
-        if len(indices) > len(beaten):
-            beaten = indices
-            move = choice
-    return move, beaten
+    moves_set = set(moves)
+    if len(moves_set) == 1:
+        move = BEATEN_BY[moves[0]]
+    elif len(moves_set) == 2:
+        if moves_set == {'R', 'P'}:
+            move = 'P'
+        elif moves_set == {'P', 'S'}:
+            move = 'S'
+        else:  # {'R', 'S'}
+            move = 'R'
+    else:  # we are doomed
+        move = None
+    return move
 
 
 def main():
@@ -32,11 +32,11 @@ def main():
         program = []
         while programs:
             moves = list(map(next, programs))
-            move, beaten = make_move(moves)
+            move = make_move(moves)
             if move is None:
                 break
             program.append(move)
-            programs = [p for i, p in enumerate(programs) if i not in beaten]
+            programs = [p for p, m in zip(programs, moves) if BEATEN_BY[m] != move]
         else:
             print('Case #{}: {}'.format(case, ''.join(program)))
             continue
