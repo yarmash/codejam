@@ -24,7 +24,7 @@
 |                                                                                                                   |     |
 |-------------------------------------------------------------------------------------------------------------------|-----|
 | [Manhattan Crepe Cart](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c) | [x] |
-| [Draupnir](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837)             | [ ] |
+| [Draupnir](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837)             | [x] |
 | [Fair Fight](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838)           | [ ] |
 
 #### Round 1C
