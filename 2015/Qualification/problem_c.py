@@ -2,6 +2,7 @@
 
 """Dijkstra"""
 
+from functools import reduce
 
 mul_map = {
     1: {
@@ -77,6 +78,10 @@ def main():
             continue
 
         S = C*X
+
+        if reduce(lambda x, y: mul_map[x][y], S) != -1:
+            print(f'Case #{case}: NO')
+            continue
 
         if check_string(S):
             print(f'Case #{case}: YES')
