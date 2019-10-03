@@ -52,17 +52,12 @@ def check_string(S):
     x = 1
     for i in range(len(S) - 2):
         x = mul_map[x][S[i]]
-
         if x == 'i':
             y = 1
             for j in range(i+1, len(S) - 1):
                 y = mul_map[y][S[j]]
                 if y == 'j':
-                    z = 1
-                    for k in range(j+1, len(S)):
-                        z = mul_map[z][S[k]]
-                    if z == 'k':
-                        return True
+                    return True
     return False
 
 
