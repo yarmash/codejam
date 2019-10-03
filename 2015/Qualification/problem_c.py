@@ -2,8 +2,6 @@
 
 """Dijkstra"""
 
-from functools import reduce
-
 mul_map = {
     1: {
         'i': 'i',
@@ -61,6 +59,14 @@ def check_string(S):
     return False
 
 
+def multiply(C, X):
+    res = 1
+    for _ in range(X % 4):
+        for val in C:
+            res = mul_map[res][val]
+    return res
+
+
 def main():
     T = int(input())  # the number of test cases
 
@@ -74,7 +80,7 @@ def main():
 
         S = C*X
 
-        if reduce(lambda x, y: mul_map[x][y], S) != -1:
+        if multiply(C, X) != -1:
             print(f'Case #{case}: NO')
             continue
 
