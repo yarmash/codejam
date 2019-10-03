@@ -78,11 +78,11 @@ def main():
             print(f'Case #{case}: NO')
             continue
 
-        S = C*X
-
         if multiply(C, X) != -1:
             print(f'Case #{case}: NO')
             continue
+
+        S = C * min(X, 8)
 
         if check_string(S):
             print(f'Case #{case}: YES')
