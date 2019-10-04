@@ -10,7 +10,7 @@ def free_cells(M, i, j):
 
 def main():
     T = int(input())
-    for i in range(T):
+    for _ in range(T):
         A = int(input())  # minimum area
         M = [[0]*1000 for _ in range(1000)]
 

@@ -6,7 +6,7 @@
 def main():
     T = int(input())  # the number of test cases
 
-    for case in range(T):
+    for _ in range(T):
         A, B = map(int, input().split())  # exclusive lower bound and inclusive upper bound
         N = int(input())  # the maximum number of guesses
 

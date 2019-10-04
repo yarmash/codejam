@@ -6,7 +6,7 @@
 def main():
     T = int(input())  # the number of test cases
 
-    for case in range(1, T+1):
+    for _ in range(T):
         N = int(input())  # the number of lollipops/customers
         F = set(range(N))  # available flavors
 

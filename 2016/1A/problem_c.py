@@ -39,7 +39,7 @@ def get_cycle(component, id_to_bff):
     return cycle
 
 
-def get_chain_len(component, cycle, bff_to_ids):
+def get_chain_len(cycle, bff_to_ids):
     """Find the longest chain that can be formed from a 2-cycle component."""
     chain_len = 2
 
@@ -89,7 +89,7 @@ def main():
         for component in components:
             cycle = get_cycle(component, id_to_bff)
             if len(cycle) == 2:
-                chain_len = get_chain_len(component, cycle, bff_to_ids)
+                chain_len = get_chain_len(cycle, bff_to_ids)
                 connectable_components.append(chain_len)
             else:
                 candidates.append(len(cycle))

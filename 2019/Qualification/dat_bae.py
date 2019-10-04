@@ -8,7 +8,7 @@ from itertools import cycle, islice
 def main():
     T = int(input())  # the number of test cases
 
-    for i in range(T):
+    for _ in range(T):
         N, B, F = map(int, input().split())  # the number of workers / broken workers / calls
 
         F = 5  # enough to solve both test sets
