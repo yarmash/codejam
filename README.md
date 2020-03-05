@@ -4,34 +4,47 @@
 
 <table>
     <tr>
-        <th colspan="2">Qualification Round</th>
-        <th colspan="2">Round 1A</th>
-        <th colspan="2">Round 1B</th>
-        <th colspan="2">Round 1C</th>
-    </tr>
-    <tr>
+        <th rowspan="4">Qualification Round</th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231">Foregone Solution</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03">Pylons</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c">Manhattan Crepe Cart</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90">Robot Programming Strategy</a></td><td>[x]</td>
     </tr>
     <tr>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da">You Can Go Your Own Way</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a">Golf Gophers</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837">Draupnir</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91">Power Arrangers</a></td><td>[ ]</td>
     </tr>
     <tr>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b">Cryptopangrams</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05">Alien Rhyme</a></td><td>[x]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838">Fair Fight</a></td><td>[ ]</td>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf">Bacterial Tactics</a></td><td>[ ]</td>
     </tr>
     <tr>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de">Dat Bae</a></td><td>[x]</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1A</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03">Pylons</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a">Golf Gophers</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05">Alien Rhyme</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1B</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c">Manhattan Crepe Cart</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837">Draupnir</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838">Fair Fight</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1C</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90">Robot Programming Strategy</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91">Power Arrangers</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf">Bacterial Tactics</a></td><td>[ ]</td>
     </tr>
 </table>
 
