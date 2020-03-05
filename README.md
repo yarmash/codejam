@@ -2,38 +2,38 @@
 
 ### 2019
 
-#### Qualification Round
-
-|                                                                                                                      |     |
-|----------------------------------------------------------------------------------------------------------------------|-----|
-| [Foregone Solution](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231)       | [x] |
-| [You Can Go Your Own Way](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da) | [x] |
-| [Cryptopangrams](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b)          | [x] |
-| [Dat Bae](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de)                 | [x] |
-
-#### Round 1A
-
-|                                                                                                           |     |
-|-----------------------------------------------------------------------------------------------------------|-----|
-| [Pylons](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03)       | [x] |
-| [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [x] |
-| [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05)  | [x] |
-
-#### Round 1B
-
-|                                                                                                                   |     |
-|-------------------------------------------------------------------------------------------------------------------|-----|
-| [Manhattan Crepe Cart](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c) | [x] |
-| [Draupnir](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837)             | [x] |
-| [Fair Fight](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838)           | [ ] |
-
-#### Round 1C
-
-|                                                                                                                         |     |
-|-------------------------------------------------------------------------------------------------------------------------|-----|
-| [Robot Programming Strategy](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90) | [x] |
-| [Power Arrangers](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91)            | [ ] |
-| [Bacterial Tactics](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf)          | [ ] |
+<table>
+    <tr>
+        <th colspan="2">Qualification Round</th>
+        <th colspan="2">Round 1A</th>
+        <th colspan="2">Round 1B</th>
+        <th colspan="2">Round 1C</th>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231">Foregone Solution</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03">Pylons</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c">Manhattan Crepe Cart</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90">Robot Programming Strategy</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da">You Can Go Your Own Way</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a">Golf Gophers</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837">Draupnir</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91">Power Arrangers</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b">Cryptopangrams</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05">Alien Rhyme</a></td><td>[x]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838">Fair Fight</a></td><td>[ ]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf">Bacterial Tactics</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de">Dat Bae</a></td><td>[x]</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+</table>
 
 ### 2018
 
