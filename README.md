@@ -41,7 +41,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90">Robot Programming Strategy</a></td><td>[x]</td>
     </tr>
     <tr>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91">Power Arrangers</a></td><td>[ ]</td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91">Power Arrangers</a></td><td>[x]</td>
     </tr>
     <tr>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf">Bacterial Tactics</a></td><td>[ ]</td>
