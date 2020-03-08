@@ -50,75 +50,106 @@
 
 ### 2018
 
-#### Practice Session
-
-|                                                                                                                       |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Number Guessing](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard)                          | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000523) |
-| [Senate Evacuation](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/00000000000004c0)       | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/00000000000004c0) |
-| [Steed 2: Cruise Control](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000524) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000524) |
-| [Bathroom Stalls](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard/0000000000000652)         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000000130/analysis/0000000000000652) |
-
-#### Qualification Round
-
-|                                                                                                                        |     |
-|------------------------------------------------------------------------------------------------------------------------|-----|
-| [Saving The Universe Again](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966) | [x] |
-| [Trouble Sort](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cb)              | [x] |
-| [Go, Gopher!](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007a30)               | [x] |
-| [Cubic UFO](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cc)                 | [ ] |
-
-#### Round 1A
-
-|                                                                                                           |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Waffle Choppers](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard)              | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000003005a) |
-| [Bit Party](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff6)   | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff6) |
-| [Edgy Baking](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff7) | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007883/analysis/000000000002fff7) |
-
-#### Round 1B
-
-|                                                                                                                     |     |                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Rounding Error](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard)                         | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/0000000000036601) |
-| [Mysterious Road Signs](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675b) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675b) |
-| [Transmutation](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard/000000000003675c)         | [ ] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007764/analysis/000000000003675c) |
-
-#### Round 1C
-
-|                                                                                                             |     |                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [A Whole New Word](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard)               | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e064) |
-| [Lollipop Shop](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e068) | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e068) |
-| [Ant Stack](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8)     | [x] | [analysis](https://codejam.withgoogle.com/2018/challenges/0000000000007765/analysis/000000000003e0a8) |
-
-#### Round 2
-
-|                                                                                                                          |     |                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Falling Balls](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard)                               | [ ] | [analysis]() |
-| [Graceful Chainsaw Jugglers](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f3) | [ ] | [analysis]() |
-| [Costume Change](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/0000000000045875)             | [ ] | [analysis]() |
-| [Gridception](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard/00000000000459f4)                | [ ] | [analysis]() |
-
-#### Round 3
-
-|                                                                                                                       |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Field Trip](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard)                               | [ ] | [analysis]() |
-| [Name-Preserving Network](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e) | [ ] | [analysis]() |
-| [Raise the Roof](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90d)          | [ ] | [analysis]() |
-| [Fence Construction](https://codejam.withgoogle.com/2018/challenges/0000000000007707/dashboard/000000000004b90e)      | [ ] | [analysis]() |
-
-#### World Finals
-
-|                                                                                                                 |     |                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------|
-| [Jurisdiction Restrictions](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard)          | [ ] | [analysis]() |
-| [Two-Tiling](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da97)        | [ ] | [analysis]() |
-| [Go, Gophers!](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004da2d)      | [ ] | [analysis]() |
-| [Swordmaster](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d961)       | [ ] | [analysis]() |
-| [The Cartesian Job](https://codejam.withgoogle.com/2018/challenges/0000000000007766/dashboard/000000000004d962) | [ ] | [analysis]() |
+<table>
+    <tr>
+        <th rowspan="4">Practice Session</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523">Number Guessing</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0">Senate Evacuation</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000524">Steed 2: Cruise Control</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652">Bathroom Stalls</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <th rowspan="4">Qualification Round</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966">Saving The Universe Again</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cb">Trouble Sort</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007a30">Go, Gopher!</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cc">Cubic UFO</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1A</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000003005a">Waffle Choppers</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000002fff6">Bit Party</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000002fff7">Edgy Baking</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1B</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/0000000000036601">Rounding Error</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/000000000003675b">Mysterious Road Signs</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/000000000003675c">Transmutation</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1C</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e064">A Whole New Word</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e068">Lollipop Shop</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e0a8">Ant Stack</a></td><td>[x]</td>
+    </tr>
+    <tr>
+        <th rowspan="4">Round 2</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f2">Falling Balls</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f3">Graceful Chainsaw Jugglers</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/0000000000045875">Costume Change</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f4">Gridception</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="4">Round 3</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b7fe">Field Trip</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004ba29">Name-Preserving Network</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b90d">Raise the Roof</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b90e">Fence Construction</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <th rowspan="5">World Finals</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd">Jurisdiction Restrictions</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da97">Two-Tiling</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da2d">Go, Gophers!</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d961">Swordmaster</a></td><td>[ ]</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d962">The Cartesian Job</a></td><td>[ ]</td>
+    </tr>
+</table>
 
 ### 2017
 
