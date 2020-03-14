@@ -9,20 +9,17 @@ def main():
     for case in range(1, T+1):
         N, K = map(int, input().split())
 
-        C = dict(enumerate(map(int, input().split()), 1))  # Charles' skill levels for each type of sword
-        D = dict(enumerate(map(int, input().split()), 1))  # Delila's skill levels for each type of sword
+        C = list(map(int, input().split()))  # Charles' skill levels for each type of sword
+        D = list(map(int, input().split()))  # Delila's skill levels for each type of sword
 
-        cnt = 0
+        pairs = 0
 
-        for L in range(1, N+1):
-            for R in range(L, N+1):
-                c = max(map(C.get, range(L, R+1)))
-                d = max(map(D.get, range(L, R+1)))
+        for L in range(N):
+            for R in range(L, N):
+                if abs(max(C[L:R+1]) - max(D[L:R+1])) <= K:
+                    pairs += 1
 
-                if abs(c-d) <= K:
-                    cnt += 1
-
-        print('Case #{}: {}'.format(case, cnt))
+        print('Case #{}: {}'.format(case, pairs))
 
 
 main()
