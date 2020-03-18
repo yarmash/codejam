@@ -1,35 +1,27 @@
 import random
+from collections.abc import Iterator, Sequence
 
 
-def select_random(iterable, default=None, random=random):
+def select_random_item(iterable, default=None):
     """
-    Select a random element from an iterable.
-    Return default if iterable is empty.
+    Select a random item from a sequence or an iterator.
+    Return `default` if the iterable is empty.
 
-    If iterable is a sequence then `random.choice()` is used for efficiency.
-    If iterable is an iterator, reservoir sampling is used (exhausts the iterator).
+    If the iterable is a sequence, then `random.choice()` is used for efficiency.
+    This runs in constant time and space.
+    If the iterable is an iterator, reservoir sampling is used (exhausts the iterator).
+    This runs in O(n) time, O(1) space.
     """
-    try:
-        return random.choice(iterable)  # O(1) time and space
-    except IndexError:  # empty sequence
+    if isinstance(iterable, Sequence):
+        if iterable:  # non-empty sequence
+            return random.choice(iterable)
         return default
-    except TypeError:  # not a sequence
-        return select_random_it(iter(iterable), default, random.randrange)
 
+    if isinstance(iterable, Iterator):
+        selection = default
+        for i, item in enumerate(iterable, start=1):
+            if random.randrange(i) == 0:  # random item in range [0..i)
+                selection = item
+        return selection
 
-def select_random_it(iterator, default=None, randrange=random.randrange):
-    """
-    Return a random element from iterator (exhausting the iterator).
-    Return default if iterator is empty.
-    O(n) time, O(1) space algorithm.
-    """
-    # from https://stackoverflow.com/a/1456750/4279
-    # select 1st item with probability 100% (if input is one item, return it)
-    # select 2nd item with probability 50% (or 50% the selection stays the 1st)
-    # select 3rd item with probability 33.(3)%
-    # select nth item with probability 1/n
-    selection = default
-    for i, item in enumerate(iterator, start=1):
-        if randrange(i) == 0:  # random in range [0..i)
-            selection = item
-    return selection
+    raise TypeError('Iterable is not of type Sequence or Iterator')

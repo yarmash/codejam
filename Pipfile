@@ -14,6 +14,7 @@ pylint = "*"
 "flake8-builtins" = "*"
 ipython = "*"
 #py2neo = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.5.3"
