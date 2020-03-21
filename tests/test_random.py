@@ -30,10 +30,12 @@ class TestSelectRandomItem:
         [[iter('a')], 'a'],
         [[iter('abc')], 'c'],
     ])
-    def test_select_random_item(self, args, item, random_seed):
+    @pytest.mark.usefixtures('random_seed')
+    def test_select_random_item(self, args, item):
         assert select_random_item(*args) == item
 
-    def test_iterator_exhausted(self, random_seed):
+    @pytest.mark.usefixtures('random_seed')
+    def test_iterator_exhausted(self):
         iterator = iter('abc')
         assert select_random_item(iterator) == 'c'
         assert next(iterator, None) is None
