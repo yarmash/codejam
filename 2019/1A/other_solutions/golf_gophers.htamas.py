@@ -16,4 +16,3 @@ for t in range(1, T+1):
     print(r)
     if input() != '1':
         exit()
-

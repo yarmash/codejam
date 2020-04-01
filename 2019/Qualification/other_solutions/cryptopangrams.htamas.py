@@ -4,7 +4,7 @@ from math import gcd
 
 T = int(input())
 for t in range(1, T+1):
-    N, L = map(int, input().split()) 
+    N, L = map(int, input().split())
     S = [int(i) for i in input().split()]
     e = [None] * (L+1)
     p = next(i for i in range(L-1) if S[i] != S[i+1])
@@ -16,4 +16,3 @@ for t in range(1, T+1):
     d = dict(zip(sorted(set(e)), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
     r = ''.join(d[i] for i in e)
     print('Case #{}: {}'.format(t, r))
-

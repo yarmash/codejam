@@ -29,4 +29,3 @@ for t in range(1, T+1):
     else:
         for c, r in moves(C, R):
             print(r, c)
-
