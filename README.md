@@ -1,5 +1,26 @@
 ## Solutions to Google Code Jam problems
 
+### 2020
+
+<table>
+    <tr>
+        <th rowspan="5">Qualification Round</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c">Vestigium</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9f">Nesting Depth</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020bdf9">Parenting Partnering Returns</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9e">ESAb ATAd</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209aa0">Indicium</a></td><td></td>
+    </tr>
+</table>
+
 ### 2019
 
 <table>
