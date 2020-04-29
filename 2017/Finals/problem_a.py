@@ -65,7 +65,7 @@ class TestCase:
 
             for other_die in this_die.current_value.dice:
                 if other_die.current_value is None:
-                    stack.extend((this_die, other_die))
+                    stack += (this_die, other_die)
                     found = True
                     break
             else:
@@ -73,7 +73,7 @@ class TestCase:
 
                 for other_die in this_die.current_value.dice:
                     if other_die not in self.visited:
-                        stack.extend((this_die, other_die))
+                        stack += (this_die, other_die)
                         break
                 else:
                     if stack:
