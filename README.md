@@ -174,67 +174,96 @@
 
 ### 2017
 
-#### Qualification Round
-
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Oversized Pancake Flipper](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p0) | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=0) |
-| [Problem B. Tidy Numbers](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p1)              | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=1) |
-| [Problem C. Bathroom Stalls](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p2)           | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=a&a=2) |
-| [Problem D. Fashion Show](https://codejam.withgoogle.com/codejam/contest/3264486/dashboard#s=p3)              |  |                                                                                      |
-
-#### Round 1A
-
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Alphabet Cake](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p0)             | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=a&a=0) |
-| [Problem B. Ratatouille](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p1)               |  |          |
-| [Problem C. Play the Dragon](https://codejam.withgoogle.com/codejam/contest/5304486/dashboard#s=p2)           |  |          |
-
-#### Round 1B
-
-|                                                                                                               |     |                                                                                   |
-|---------------------------------------------------------------------------------------------------------------|-----|-----------------------------------------------------------------------------------|
-| [Problem A. Steed 2: Cruise Control](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p0)   | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p0) |
-| [Problem B. Stable Neigh-bors](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p1)         |  |          |
-| [Problem C. Pony Express](https://codejam.withgoogle.com/codejam/contest/8294486/dashboard#s=p2)              |  |          |
-
-#### Round 1C
-
-|                                                                                                               |     |                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------|
-| [Problem A. Ample Syrup](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p0)               | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=a&a=0) |
-| [Problem B. Parenting Partnering](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p1)      |  |          |
-| [Problem C. Core Training](https://codejam.withgoogle.com/codejam/contest/3274486/dashboard#s=p2)             |  |          |
-
-#### Round 2
-
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Fresh Chocolate](https://codejam.withgoogle.com/codejam/contest/5314486/dashboard#s=p0)           |  |          |
-| [Problem B. Roller Coaster Scheduling](https://codejam.withgoogle.com/codejam/contest/5314486/dashboard#s=p1) |  |          |
-| [Problem C. Beaming With Joy](https://codejam.withgoogle.com/codejam/contest/5314486/dashboard#s=p2)          |  |          |
-| [Problem D. Shoot the Turrets](https://codejam.withgoogle.com/codejam/contest/5314486/dashboard#s=p3)         |  |          |
-
-#### Round 3
-
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Googlements](https://codejam.withgoogle.com/codejam/contest/8304486/dashboard#s=p0)               |  |          |
-| [Problem B. Good News and Bad News](https://codejam.withgoogle.com/codejam/contest/8304486/dashboard#s=p1)    |  |          |
-| [Problem C. Mountain Tour](https://codejam.withgoogle.com/codejam/contest/8304486/dashboard#s=p2)             |  |          |
-| [Problem D. Slate Modern](https://codejam.withgoogle.com/codejam/contest/8304486/dashboard#s=p3)              |  |          |
-
-#### World Finals
-
-|                                                                                                               |     |          |
-|---------------------------------------------------------------------------------------------------------------|-----|----------|
-| [Problem A. Dice Straight](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p0)             | :heavy_check_mark: | [analysis](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=a&a=0) |
-| [Problem B. Operation](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p1)                 |  |          |
-| [Problem C. Spanning Planning](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p2)         |  |          |
-| [Problem D. Omnicircumnavigation](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p3)      |  |          |
-| [Problem E. Stack Management](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p4)          |  |          |
-| [Problem F. Teleporters](https://codejam.withgoogle.com/codejam/contest/6314486/dashboard#s=p5)               |  |          |
+<table>
+    <tr>
+        <th rowspan="4">Qualification Round</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847">Oversized Pancake Flipper</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878">Tidy Numbers</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201905">Bathroom Stalls</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/00000000002017f8">Fashion Show</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1A</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/0000000000201875">Alphabet Cake</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/00000000002018fe">Ratatouille</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/00000000002017f3">Play the Dragon</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1B</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020190e">Steed 2: Cruise Control</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/0000000000201804">Stable Neigh-bors</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020184d">Pony Express</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="3">Round 1C</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/0000000000201874">Ample Syrup</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/00000000002018fd">Parenting Partnering</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/00000000002017f2">Core Training</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="4">Round 2</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/00000000002017f4">Fresh Chocolate</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201845">Roller Coaster Scheduling</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201876">Beaming With Joy</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201901">Shoot the Turrets</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="4">Round 3</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/00000000002017f6">Googlements</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201846">Good News and Bad News</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201877">Mountain Tour</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201903">Slate Modern</a></td><td></td>
+    </tr>
+    <tr>
+        <th rowspan="6">World Finals</th>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/00000000002017fc">Dice Straight</a></td><td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020184a">Operation</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020187a">Spanning Planning</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020190a">Omnicircumnavigation</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/00000000002017fd">Stack Management</a></td><td></td>
+    </tr>
+    <tr>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020184b">Teleporters</a></td><td></td>
+    </tr>
+</table>
 
 ### 2016
 
