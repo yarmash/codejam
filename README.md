@@ -1,10 +1,10 @@
 ## Solutions to Google Code Jam problems
 
-### 2020
+### <a href="https://codingcompetitions.withgoogle.com/codejam/archive/2020">2020</a>
 
 <table>
     <tr>
-        <th rowspan="5">Qualification Round</th>
+        <th rowspan="5"><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27">Qualification Round</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c">Vestigium</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -21,11 +21,11 @@
     </tr>
 </table>
 
-### 2019
+### <a href="https://codingcompetitions.withgoogle.com/codejam/archive/2019">2019</a>
 
 <table>
     <tr>
-        <th rowspan="4">Qualification Round</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705">Qualification Round</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231">Foregone Solution</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de">Dat Bae</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1A</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635">Round 1A</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03">Pylons</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -48,7 +48,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05">Alien Rhyme</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1B</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706">Round 1B</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c">Manhattan Crepe Cart</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -58,7 +58,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838">Fair Fight</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1C</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9">Round 1C</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90">Robot Programming Strategy</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -69,11 +69,11 @@
     </tr>
 </table>
 
-### 2018
+### <a href="https://codingcompetitions.withgoogle.com/codejam/archive/2018">2018</a>
 
 <table>
     <tr>
-        <th rowspan="4">Practice Session</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130">Practice Session</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523">Number Guessing</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652">Bathroom Stalls</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
-        <th rowspan="4">Qualification Round</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb">Qualification Round</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966">Saving The Universe Again</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cc">Cubic UFO</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1A</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883">Round 1A</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000003005a">Waffle Choppers</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -109,7 +109,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000002fff7">Edgy Baking</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1B</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764">Round 1B</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/0000000000036601">Rounding Error</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -119,7 +119,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/000000000003675c">Transmutation</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1C</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765">Round 1C</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e064">A Whole New Word</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -129,7 +129,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e0a8">Ant Stack</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
-        <th rowspan="4">Round 2</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706">Round 2</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f2">Falling Balls</a></td><td></td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f4">Gridception</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="4">Round 3</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707">Round 3</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b7fe">Field Trip</a></td><td></td>
     </tr>
     <tr>
@@ -155,7 +155,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b90e">Fence Construction</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="5">World Finals</th>
+        <th rowspan="5"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766">World Finals</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd">Jurisdiction Restrictions</a></td><td></td>
     </tr>
     <tr>
@@ -172,11 +172,11 @@
     </tr>
 </table>
 
-### 2017
+### <a href="https://codingcompetitions.withgoogle.com/codejam/archive/2017">2017</a>
 
 <table>
     <tr>
-        <th rowspan="4">Qualification Round</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7">Qualification Round</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847">Oversized Pancake Flipper</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/00000000002017f8">Fashion Show</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1A</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843">Round 1A</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/0000000000201875">Alphabet Cake</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -199,7 +199,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/00000000002017f3">Play the Dragon</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1B</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f">Round 1B</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020190e">Steed 2: Cruise Control</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -209,7 +209,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020184d">Pony Express</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="3">Round 1C</th>
+        <th rowspan="3"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842">Round 1C</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/0000000000201874">Ample Syrup</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
@@ -219,7 +219,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/00000000002017f2">Core Training</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="4">Round 2</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900">Round 2</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/00000000002017f4">Fresh Chocolate</a></td><td></td>
     </tr>
     <tr>
@@ -232,7 +232,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201901">Shoot the Turrets</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="4">Round 3</th>
+        <th rowspan="4"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902">Round 3</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/00000000002017f6">Googlements</a></td><td></td>
     </tr>
     <tr>
@@ -245,7 +245,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201903">Slate Modern</a></td><td></td>
     </tr>
     <tr>
-        <th rowspan="6">World Finals</th>
+        <th rowspan="6"><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909">World Finals</a></th>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/00000000002017fc">Dice Straight</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
