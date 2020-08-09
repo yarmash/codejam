@@ -9,6 +9,7 @@ def select_random_item(iterable, default=None):
 
     If the iterable is a sequence, then `random.choice()` is used for efficiency.
     This runs in constant time and space.
+
     If the iterable is an iterator, reservoir sampling is used (exhausts the iterator).
     This runs in O(n) time, O(1) space.
     """
