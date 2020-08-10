@@ -1,5 +1,5 @@
 [flake8]
-exclude = testing_tool.py,interactive_runner.py
+exclude = testing_tool.py,local_testing_tool.py,interactive_runner.py
 max-line-length = 119
 extend-ignore =
     E741,  # ambiguous variable name

@@ -14,7 +14,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020bdf9">Parenting Partnering Returns</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
-        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9e">ESAb ATAd</a></td><td></td>
+        <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9e">ESAb ATAd</a></td><td>:heavy_check_mark:</td>
     </tr>
     <tr>
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209aa0">Indicium</a></td><td></td>
