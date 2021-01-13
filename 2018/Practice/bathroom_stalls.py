@@ -37,7 +37,7 @@ def main():
             count[max_s] += count[chunk]
             count[min_s] += count[chunk]
 
-        print('Case #{}: {} {}'.format(case, max_s, min_s))
+        print(f'Case #{case}: {max_s} {min_s}')
 
 
 main()
