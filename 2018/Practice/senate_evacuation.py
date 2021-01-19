@@ -37,7 +37,7 @@ def main():
                 if senators < 0:
                     heappush(h, (senators, party))
 
-        print('Case #{}: {}'.format(case, ' '.join(res)))
+        print(f'Case #{case}: {" ".join(res)}')
 
 
 main()
