@@ -1,8 +1,8 @@
-"""Tests for the functions in the codejam.random module."""
+"""Tests for the functions in the codejam.select_random module."""
 
 import pytest
 
-from codejam.random import select_random_item
+from codejam.select_random import select_random_item
 
 
 class TestSelectRandomItem:
