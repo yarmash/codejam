@@ -1,0 +1,27 @@
+## Solutions to Google Code Jam problems
+
+<table>
+{% for year in years %}
+    {% for round in year.rounds %}
+        {% set round_loop = loop %}
+        {% for problem in round.problems %}
+    <tr>
+            {% if loop.first %}
+                {% if round_loop.first %}
+        <th rowspan="{{ year.rounds|sum(attribute='problems',start=[])|count }}"><a href="{{ year.url }}">{{ year.name }}</a></th>
+                {% endif %}
+        <th rowspan="{{ round.problems|count }}"><a href="{{ round.url }}">{{ round.name }}</a></th>
+            {% endif %}
+        <td><a href="{{ problem.url }}">{{ problem.name }}</a></td>
+        <td>
+            <ul>
+            {% for test_set in problem.test_sets %}
+                <li>[ ] {{ test_set }}</li>
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</table>

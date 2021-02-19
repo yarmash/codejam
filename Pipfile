@@ -8,16 +8,18 @@ numpy = "*"
 scipy = "*"
 
 [dev-packages]
-isort = "*"
-pylint = "*"
 flake8 = "*"
 flake8-bugbear = "*"
 flake8-builtins = "*"
 flake8-comprehensions = "*"
 flake8-quotes = "*"
 ipython = "*"
-#py2neo = "*"
+isort = "*"
+jinja2 = "*"
+pylint = "*"
 pytest = "*"
+selenium = "*"
+#py2neo = "*"
 
 [requires]
 python_version = "3.7.3"
