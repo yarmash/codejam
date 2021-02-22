@@ -9,8 +9,8 @@ def main():
     for case in range(1, T+1):
         N = int(input())  # the dimensions of the maze
         P = input()
-        path = ''.join('S' if move == 'E' else 'E' for move in P)
-        print('Case #{}: {}'.format(case, path))
+        path = ''.join(['S' if move == 'E' else 'E' for move in P])
+        print(f'Case #{case}: {path}')
 
 
 main()

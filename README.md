@@ -278,9 +278,9 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da">You Can Go Your Own Way</a></td>
         <td>
             <ul>
-                <li>[ ] 5pts</li>
-                <li>[ ] 9pts</li>
-                <li>[ ] 10pts</li>
+                <li>[x] 5pts</li>
+                <li>[x] 9pts</li>
+                <li>[x] 10pts</li>
             </ul>
         </td>
     </tr>
