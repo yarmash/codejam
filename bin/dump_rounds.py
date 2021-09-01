@@ -76,7 +76,7 @@ def dump_rounds(driver):
     logger.info('Getting url: %s', ARCHIVE_URL)
     driver.get(ARCHIVE_URL)
 
-    num_years = date.today().year - FIRST_YEAR  # number of years in the archive
+    num_years = date.today().year - FIRST_YEAR + 1  # number of years in the archive
     logger.info('Expecting %s year cards', num_years)
 
     cards = WebDriverWait(driver, 20).until(
