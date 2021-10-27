@@ -5,7 +5,7 @@
 import sys
 from functools import lru_cache
 
-sys.setrecursionlimit(5000)
+sys.setrecursionlimit(5000)  # TODO: get rid of recursion
 
 
 def main():
