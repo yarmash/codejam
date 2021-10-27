@@ -7,7 +7,7 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000043580a/00000000006d0a5c">Reversort</a></td>
         <td>
             <ul>
-                <li>[ ] 7pts</li>
+                <li>[x] 7pts</li>
             </ul>
         </td>
     </tr>
@@ -15,9 +15,9 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/000000000043580a/00000000006d1145">Moons and Umbrellas</a></td>
         <td>
             <ul>
-                <li>[ ] 5pts</li>
-                <li>[ ] 11pts</li>
-                <li>[ ] 1pts</li>
+                <li>[x] 5pts</li>
+                <li>[x] 11pts</li>
+                <li>[x] 1pts</li>
             </ul>
         </td>
     </tr>
