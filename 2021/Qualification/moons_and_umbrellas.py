@@ -12,19 +12,8 @@ def main():
         Y = int(Y)
         S = list(S)
 
-        if S[0] == '?':
-            for i in range(1, len(S)):
-                if S[i] != '?':
-                    S[:i] = [S[i]]*i
-                    break
-            else:
-                S[:] = ['J']*len(S)
+        S = ''.join(S).replace('?', '')
 
-        for i in range(1, len(S)):
-            if S[i] == '?':
-                S[i] = S[i-1]
-
-        S = ''.join(S)
         cost = X * S.count('CJ') + Y * S.count('JC')
 
         print(f'Case #{case}: {cost}')
