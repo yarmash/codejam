@@ -25,7 +25,7 @@ def main():
             if S[0] == '?':
                 return min(cost(('C',) + S[1:]), cost(('J',) + S[1:]))
 
-            if S[0] in ('C', 'J') and S[1] == '?':
+            if S[0] != '?' and S[1] == '?':
                 return min(cost((S[0],) + ('C',) + S[2:]), cost((S[0],) + ('J',) + S[2:]))
 
             if S[0] == S[1]:
@@ -36,7 +36,6 @@ def main():
 
             if S[0] == 'J' and S[1] == 'C':
                 return Y + cost(S[1:])
-
 
         print(f'Case #{case}: {cost(S)}')
 
