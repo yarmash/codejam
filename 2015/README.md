@@ -6,8 +6,8 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433738">Standing Ovation</a></td>
         <td>
             <ul>
-                <li>[ ] 7pts</li>
-                <li>[ ] 10pts</li>
+                <li>[x] 7pts</li>
+                <li>[x] 10pts</li>
             </ul>
         </td>
     </tr>
@@ -15,8 +15,8 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433827">Infinite House of Pancakes</a></td>
         <td>
             <ul>
-                <li>[ ] 9pts</li>
-                <li>[ ] 12pts</li>
+                <li>[x] 9pts</li>
+                <li>[x] 12pts</li>
             </ul>
         </td>
     </tr>
@@ -24,8 +24,8 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433a60">Dijkstra</a></td>
         <td>
             <ul>
-                <li>[ ] 11pts</li>
-                <li>[ ] 17pts</li>
+                <li>[x] 11pts</li>
+                <li>[x] 17pts</li>
             </ul>
         </td>
     </tr>
