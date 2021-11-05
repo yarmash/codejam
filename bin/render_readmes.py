@@ -3,16 +3,20 @@
 """Render README files out of the json dump file."""
 
 import json
+import os
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
 def main():
-    with open('dump.json') as f:
+    root_dir = Path(__file__).resolve().parents[1]
+    os.chdir(root_dir)
+
+    with open(f'{root_dir}/dump.json') as f:
         years = [year for year in json.load(f) if Path(year['name']).is_dir()]
 
-    templates_dir = Path(__file__).resolve().parents[1] / 'templates'
+    templates_dir = root_dir / 'templates'
 
     env = Environment(
         loader=FileSystemLoader(templates_dir),
