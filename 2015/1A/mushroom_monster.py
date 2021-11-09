@@ -4,23 +4,12 @@
 
 
 def method1(N, m):
-    res = 0
-    for i in range(1, N):
-        if m[i] < m[i-1]:
-            res += m[i-1] - m[i]
-    return res
+    return sum(m[i-1] - m[i] for i in range(1, N) if m[i] < m[i-1])
 
 
 def method2(N, m):
-    res = min_rate = 0
-
-    for i in range(1, N):
-        if m[i-1] - m[i] > min_rate:
-            min_rate = m[i-1] - m[i]
-
-    for i in range(1, N):
-        res += min(min_rate, m[i-1])
-    return res
+    rate = max(m[i-1] - m[i] for i in range(1, N))
+    return sum(min(rate, m[i-1]) for i in range(1, N))
 
 
 def main():
