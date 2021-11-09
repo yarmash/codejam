@@ -43,8 +43,8 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433792">Mushroom Monster</a></td>
         <td>
             <ul>
-                <li>[ ] 7pts</li>
-                <li>[ ] 8pts</li>
+                <li>[x] 7pts</li>
+                <li>[x] 8pts</li>
             </ul>
         </td>
     </tr>
