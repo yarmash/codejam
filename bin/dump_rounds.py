@@ -39,7 +39,7 @@ class year_cards():
         self.cards_number = cards_number
 
     def __call__(self, driver):
-        year_cards = driver.find_elements_by_css_selector(self.locator)
+        year_cards = driver.find_elements(By.CSS_SELECTOR, self.locator)
         logger.info('Found %s year cards', len(year_cards))
         if len(year_cards) == self.cards_number:
             return year_cards
@@ -52,7 +52,7 @@ class round_containers():
         self.locator = locator
 
     def __call__(self, driver):
-        containers = driver.find_elements_by_xpath(self.locator)
+        containers = driver.find_elements(By.XPATH, self.locator)
         logger.info('Found %s rounds', len(containers))
         if len(containers) >= MIN_ROUNDS_PER_YEAR:
             return containers
@@ -65,7 +65,7 @@ class problem_containers():
         self.locator = locator
 
     def __call__(self, driver):
-        containers = driver.find_elements_by_css_selector(self.locator)
+        containers = driver.find_elements(By.CSS_SELECTOR, self.locator)
         logger.info('Found %s problems', len(containers))
         if len(containers) >= MIN_PROBLEMS_PER_ROUND:
             return containers
@@ -86,8 +86,8 @@ def dump_rounds(driver):
     years = []
 
     for card in cards:
-        year = card.find_element_by_xpath('.//p[1]').text.split()[-1]
-        url = card.find_element_by_xpath('.//a').get_attribute('href')
+        year = card.find_element(By.XPATH, './/p[1]').text.split()[-1]
+        url = card.find_element(By.XPATH, './/a').get_attribute('href')
         years.append({'name': year, 'url': url})
 
     for year in years:
@@ -110,8 +110,9 @@ def process_year(driver, year_link):
     rounds = []
 
     for div in round_divs:
-        round_name = div.find_element_by_xpath('.//span').text
-        round_url = div.find_element_by_xpath(
+        round_name = div.find_element(By.XPATH, './/span').text
+        round_url = div.find_element(
+            By.XPATH,
             './/div[contains(@class, "schedule-row-cell--action")]//a[contains(.,"View")][contains(.,"arrow_forward")]'
         ).get_attribute('href')
 
@@ -131,9 +132,9 @@ def process_round(driver, round_link):
     )
     problems = []
     for div in problem_divs:
-        problem_name = div.find_element_by_xpath('.//p').get_attribute('textContent').strip()
+        problem_name = div.find_element(By.XPATH, './/p').get_attribute('textContent').strip()
         assert problem_name
-        problem_url = div.find_element_by_xpath('.//a[contains(.,"Open problem")]').get_attribute('href')
+        problem_url = div.find_element(By.XPATH, './/a[contains(.,"Open problem")]').get_attribute('href')
         problems.append({'name': problem_name, 'url': problem_url})
 
     for problem in problems:
