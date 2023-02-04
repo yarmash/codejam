@@ -52,8 +52,8 @@
         <td><a href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2/0000000000201d1a">Rank and File</a></td>
         <td>
             <ul>
-                <li>[ ] 14pts</li>
-                <li>[ ] 21pts</li>
+                <li>[x] 14pts</li>
+                <li>[x] 21pts</li>
             </ul>
         </td>
     </tr>
